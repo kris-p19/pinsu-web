@@ -1,4 +1,14 @@
 $(document).ready(function() {
+
+    $("#pinsu-main-slide").owlCarousel({
+        items:1,
+        loop:true,
+        margin:0,
+        responsiveClass:true,
+        autoplay:true,
+        autoplayHoverPause:false
+    });
+
     // Function to update screen width and height
     function updateScreenInfo() {
         var screenWidth = $(window).width();
