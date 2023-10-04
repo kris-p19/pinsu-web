@@ -45,19 +45,25 @@
         <div class="row">
             <div class="container">
 
-                <nav class="navbar navbar-default" style="background-color:transparent;border:0px;">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="#">
-                                <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="150">
-                            </a>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="pull-left">
+                            <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="120">
+                            <p style="padding-top:20px;">Aibel builds and maintains platforms and other critical infrastructure for the energy industry. The company holds a leading position within the European offshore wind industries and electrification of offshore oil and gas installations and onshore processing plants. Aibel is one of the largest suppliers on the Norwegian continental shelf and a full-range supplier of innovative and sustainable solutions. More than 4,700 employees work at the company's offices in Norway, Thailand and Singapore. In addition, Aibel owns two modern yards in Haugesund, Norway, and in Laem Chabang, Thailand, with significant prefabrication and construction capacity.</p>
                         </div>
-                        
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Link</a></li>
-                        </ul>
                     </div>
-                </nav>
+                    <div class="col-md-6">
+                        <div class="pull-right">
+                            <a href="{{ url('company') }}" style="display:inline-block;color:blue;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.company') }}</a>
+                            <a href="{{ url('location') }}" style="display:inline-block;color:blue;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.location') }}</a>
+                            <a href="{{ url('news') }}" style="display:inline-block;color:blue;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.news') }}</a>
+
+                            <div class="text-right">
+                                <a href="" style="display:inline-block;color:blue;" class="pinsu-nav-item hvr-underline-from-center">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
