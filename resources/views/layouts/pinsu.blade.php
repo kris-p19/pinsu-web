@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito|Gabarito" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
     <link rel="shortcut icon" href="{{ asset('images/fa-icon.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit|Gabarito">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -17,7 +17,7 @@
     <title>{{ __('txt.appname') }}</title>
 </head>
 <body>
-    <div class="pinsu-nav" style="position:relative;top:10px;">
+    <div class="pinsu-nav">
         <a class="pinsu-navbar-logo" href="{{ url('/') }}">
             <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="150">
         </a>
@@ -40,6 +40,28 @@
         </div>
     </div>
     @yield('content')
+
+    <div class="container-fluid" style="margin-top: 60px;padding-top: 60px;padding-bottom: 60px;background-color:#f4f4f4;">
+        <div class="row">
+            <div class="container">
+
+                <nav class="navbar navbar-default" style="background-color:transparent;border:0px;">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">
+                                <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="150">
+                            </a>
+                        </div>
+                        
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Link</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
