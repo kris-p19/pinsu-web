@@ -7,6 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="shortcut icon" href="{{ asset('images/fa-icon.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit|Gabarito">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
@@ -46,22 +47,46 @@
             <div class="container">
 
                 <div class="col-md-12">
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <div class="pull-left">
                             <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="120">
-                            <p style="padding-top:20px;">Aibel builds and maintains platforms and other critical infrastructure for the energy industry. The company holds a leading position within the European offshore wind industries and electrification of offshore oil and gas installations and onshore processing plants. Aibel is one of the largest suppliers on the Norwegian continental shelf and a full-range supplier of innovative and sustainable solutions. More than 4,700 employees work at the company's offices in Norway, Thailand and Singapore. In addition, Aibel owns two modern yards in Haugesund, Norway, and in Laem Chabang, Thailand, with significant prefabrication and construction capacity.</p>
+                            <p style="padding-top:20px;">
+                                บริษัท พินซู จำกัด  212/26 หมู่ 7 ถ. บ้านกล้วย-ไทรน้อย ต.พิมลราช อ.บางบัวทอง จ.นนทบุรี 11110
+                                <br> Pinsu Co., Ltd - 212/26  Moo 7, Ban Kluai Sai Noi Road, Tambon Phimonrat, Amphoe Bang Bua thong, Nonthaburi 11110, Thailand
+                                <br> Tel : +66(0)88-243 4656 / +66(0)82-919 5356 / +66(0)2063 4564
+                                <br> Fax : +66(0)2063 4564 
+                                <br> Email : contact@pinsu.co.th / pinsu@pinsu.co.th
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <div class="pull-right">
-                            <a href="{{ url('company') }}" style="display:inline-block;color:blue;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.company') }}</a>
-                            <a href="{{ url('location') }}" style="display:inline-block;color:blue;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.location') }}</a>
-                            <a href="{{ url('news') }}" style="display:inline-block;color:blue;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.news') }}</a>
+                            <a href="{{ url('company') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.company') }}</a>
+                            <a href="{{ url('location') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.location') }}</a>
+                            <a href="{{ url('news') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.news') }}</a>
 
                             <div class="text-right">
-                                <a href="" style="display:inline-block;color:blue;" class="pinsu-nav-item hvr-underline-from-center">Facebook</a>
+                                <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                    <i class="fa-solid fa-tty"></i>
+                                </a>
+                                <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                    <i class="fa-brands fa-line"></i>
+                                </a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <p style="display:inline-block;margin-right:10px;">&copy; {{ date('Y')=='2023'?date('Y'):'2023 - ' . date('Y') }} {{ __('txt.company_name') }}</p>
+                        <a href="javascipt:void(0);" style="display:inline-block;margin-right:10px;">Terms of service</a>
+                        <a href="javascipt:void(0);" style="display:inline-block;margin-right:10px;">Privacy</a>
                     </div>
                 </div>
 

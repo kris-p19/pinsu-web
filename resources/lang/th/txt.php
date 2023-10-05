@@ -1,11 +1,14 @@
 <?php
 return [
     'appname' => 'พินซู',
+    'company_name' => 'บริษัท พินซู จำกัด',
+    'company_name_min' => 'พินซู',
     'menu' => [
         'home'      => 'หน้าหลัก',
         'company'   => 'บริษัท',
         'product'   => 'สินค้า',
         'contact'   => 'ติดต่อ',
-        'news'      => 'ข่าว'
+        'news'      => 'ข่าว',
+        'location'  => 'สถานที่ตั้ง'
     ]
 ];
