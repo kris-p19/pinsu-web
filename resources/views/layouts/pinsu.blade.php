@@ -256,7 +256,7 @@
                         <div class="row">
                             <div class="col-md-7">
                                 <div class="pull-left">
-                                    <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="120">
+                                    <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="220">
                                     <p style="padding-top:20px;">
                                         บริษัท พินซู จำกัด  212/26 หมู่ 7 ถ. บ้านกล้วย-ไทรน้อย ต.พิมลราช อ.บางบัวทอง จ.นนทบุรี 11110
                                         <br> Pinsu Co., Ltd - 212/26  Moo 7, Ban Kluai Sai Noi Road, Tambon Phimonrat, Amphoe Bang Bua thong, Nonthaburi 11110, Thailand
