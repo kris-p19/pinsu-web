@@ -45,11 +45,11 @@
     <div class="container-fluid" style="margin-top: 60px;padding-top: 60px;padding-bottom: 60px;background-color:#ffffff;">
         <div class="row">
             <div class="container">
-                <div class="row">
+                <div class="row" style="padding-top:20px;padding-bottom:20px;">
+                    <hr style="width:100%;height:40px;background:#e2efd9;">
                     <div class="col-md-12">
-                        <hr style="width:100%;height:40px;background:#e2efd9;">
                         <div class="row">
-                            <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fabrics / ผ้าทนความร้อน</b></h3>
                                 <ul>
                                     <li>Glass Fabrics / ผ้าใยแก้ว</li>
@@ -59,16 +59,16 @@
                                     <li>PTFE Coated Fabrics / ผ้าเคลือบ PTFE</li>
                                 </ul>
                             </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4">
-                                <img src="{{ asset('images/footers/Hi-Temp Fabrics.jpg') }}" class="img-responsive">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <img src="{{ asset('images/footers/Hi-Temp Fabrics.jpg') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row" style="margin-top:20px;">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;background:#e2efd9;">
                         <div class="row">
-                            <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fiber Tape / Gasket เทปพันท่อ / ปะเก็น</b></h3>
                                 <ul>
                                     <li>Glass Fiber Tape / เทปใยแก้ว</li>
@@ -77,8 +77,8 @@
                                     <li>Gasket / ปะเก็น</li>
                                 </ul>
                             </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4">
-                                <img src="{{ asset('images/footers/Hi-Temp Fiber Tape.jpg') }}" class="img-responsive">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <img src="{{ asset('images/footers/Hi-Temp Fiber Tape.jpg') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                 <div class="row" style="margin-top:20px;">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;"><b style="color:#015f01;">Removable Insulations / ฉนวนความร้อนแบบถอดได้</b></h3>
                                 <ul>
                                     <li>ฉนวนเตาอบอุตสาหกรรม</li>
@@ -97,16 +97,16 @@
                                     <li>ฉนวนเทอร์ไบน์ (Turbine Insulation)</li>
                                 </ul>
                             </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4">
-                                <img src="{{ asset('images/footers/Removable Insulation .jpg') }}" class="img-responsive">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <img src="{{ asset('images/footers/Removable Insulation .jpg') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row" style="margin-top:20px;">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;background:#e2efd9;">
                         <div class="row">
-                            <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;">
                                     <b style="color:#015f01;">
                                         Flexible Joint / Expansion Joint 
@@ -124,8 +124,8 @@
                                     <li>ฉนวนเทอร์ไบน์ (Turbine Insulation)</li>
                                 </ul> -->
                             </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4">
-                                <img src="{{ asset('images/footers/Flexible Joint.jpg') }}" class="img-responsive">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <img src="{{ asset('images/footers/Flexible Joint.jpg') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                 <div class="row" style="margin-top:20px;">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;">
                                     <b style="color:#015f01;">
                                         Welding Blanket / Welding Curtain      
@@ -148,16 +148,16 @@
                                     <li>ม่านกรองแสงสะเก็ดไฟงานเชื่อม</li>
                                 </ul>
                             </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4">
-                                <img src="{{ asset('images/footers/Welding Blankets.JPG') }}" class="img-responsive">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <img src="{{ asset('images/footers/Welding Blankets.JPG') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row" style="margin-top:20px;">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;background:#e2efd9;">
                         <div class="row">
-                            <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;">
                                     <b style="color:#015f01;">
                                         Hi-Temp Sewing Thread ด้ายทนความร้อน
@@ -172,8 +172,8 @@
                                     <li>Silica Fiber Sewing Thread / ด้ายซิลิก้า</li>
                                 </ul>
                             </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4">
-                                <img src="{{ asset('images/footers/Hi-Temp Sewing Thread.jpg') }}" class="img-responsive">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <img src="{{ asset('images/footers/Hi-Temp Sewing Thread.jpg') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                 <div class="row" style="margin-top:20px;">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;">
                                     <b style="color:#015f01;">
                                         Insulation Fasteners วัสดุยึดฉนวน
@@ -195,16 +195,16 @@
                                     <li>SS D-Ring</li>
                                 </ul>
                             </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4">
-                                <img src="{{ asset('images/footers/ACCESS.JPG') }}" class="img-responsive">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <img src="{{ asset('images/footers/ACCESS.JPG') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row" style="margin-top:20px;">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;background:#e2efd9;">
                         <div class="row">
-                            <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;">
                                     <b style="color:#015f01;">
                                         Fiber Blanket / ฉนวนแบบแผ่น
@@ -216,8 +216,29 @@
                                     <li>ฉนวนเซรามิคชนิดปิดผิว</li>
                                 </ul>
                             </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4">
-                                <img src="{{ asset('images/footers/Fiber Blanket.jpg') }}" class="img-responsive">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <img src="{{ asset('images/footers/Fiber Blanket.jpg') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:20px;">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3 style="margin-top:0px;">
+                                    <b style="color:#015f01;">
+                                        Work Tents เต็นท์ผ้าใบ
+                                    </b>
+                                </h3>
+                                <!-- <ul>
+                                    <li>Glass Wool (Glass Needled Mat)</li>
+                                    <li>(Bio-Soluble) Ceramic Fiber Blanket</li>
+                                    <li>ฉนวนเซรามิคชนิดปิดผิว</li>
+                                </ul> -->
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <img src="{{ asset('images/footers/Work Tent.jpg') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                             </div>
                         </div>
                     </div>
