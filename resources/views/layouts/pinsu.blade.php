@@ -49,7 +49,7 @@
                     <div class="col-md-12">
                         <hr style="width:100%;height:40px;background:#e2efd9;">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-sm-8 col-md-8 col-lg-8">
                                 <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fabrics / ผ้าทนความร้อน</b></h3>
                                 <ul>
                                     <li>Glass Fabrics / ผ้าใยแก้ว</li>
@@ -59,12 +59,8 @@
                                     <li>PTFE Coated Fabrics / ผ้าเคลือบ PTFE</li>
                                 </ul>
                             </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <img src="{{ asset('images/footers/Hi-Temp Fabrics.jpg') }}" class="img-responsive">
-                                    </div>
-                                </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <img src="{{ asset('images/footers/Hi-Temp Fabrics.jpg') }}" class="img-responsive">
                             </div>
                         </div>
                     </div>
@@ -72,8 +68,8 @@
                 <div class="row" style="margin-top:20px;">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-md-4">
-                                <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fiber Tape / Gasket เทปพันท่อ / ปะเก็น </b></h3>
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fiber Tape / Gasket เทปพันท่อ / ปะเก็น</b></h3>
                                 <ul>
                                     <li>Glass Fiber Tape / เทปใยแก้ว</li>
                                     <li>Ceramic Fiber Tape / เทปเซรามิค</li>
@@ -81,12 +77,147 @@
                                     <li>Gasket / ปะเก็น</li>
                                 </ul>
                             </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <img src="{{ asset('images/footers/Hi-Temp Fiber Tape.jpg') }}" class="img-responsive">
-                                    </div>
-                                </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <img src="{{ asset('images/footers/Hi-Temp Fiber Tape.jpg') }}" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:20px;">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <h3 style="margin-top:0px;"><b style="color:#015f01;">Removable Insulations / ฉนวนความร้อนแบบถอดได้</b></h3>
+                                <ul>
+                                    <li>ฉนวนเตาอบอุตสาหกรรม</li>
+                                    <li>ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</li>
+                                    <li>ฉนวนหุ้มเครื่องฉีดพลาสติก</li>
+                                    <li>ฉนวนหุ้ม Heater</li>
+                                    <li>ฉนวนหุ้มท่อ Boiler</li>
+                                    <li>ฉนวนเทอร์ไบน์ (Turbine Insulation)</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <img src="{{ asset('images/footers/Removable Insulation .jpg') }}" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:20px;">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <h3 style="margin-top:0px;">
+                                    <b style="color:#015f01;">
+                                        Flexible Joint / Expansion Joint 
+                                        Fabric Expansion Joint / 
+                                        Flexible Duct Connector 
+                                        ข้อต่อท่อลมร้อน/เย็น (แบบยืดหดได้)
+                                    </b>
+                                </h3>
+                                <!-- <ul>
+                                    <li>ฉนวนเตาอบอุตสาหกรรม</li>
+                                    <li>ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</li>
+                                    <li>ฉนวนหุ้มเครื่องฉีดพลาสติก</li>
+                                    <li>ฉนวนหุ้ม Heater</li>
+                                    <li>ฉนวนหุ้มท่อ Boiler</li>
+                                    <li>ฉนวนเทอร์ไบน์ (Turbine Insulation)</li>
+                                </ul> -->
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <img src="{{ asset('images/footers/Flexible Joint.jpg') }}" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:20px;">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <h3 style="margin-top:0px;">
+                                    <b style="color:#015f01;">
+                                        Welding Blanket / Welding Curtain      
+                                        ผ้ากันสะเก็ดไฟ 
+                                        Fire Blanket / ผ้าห่มดับไฟ 
+                                    </b>
+                                </h3>
+                                <ul>
+                                    <li>ผ้ากันสะเก็ดไฟแบบประหยัด / งานเบา</li>
+                                    <li>ผ้ากันสะเก็ดไฟสำหรับงานเชื่อม/ตัดโลหะ</li>
+                                    <li>ผ้ากันสะเก็ดไฟชนิดไม่คัน</li>
+                                    <li>ม่านกรองแสงสะเก็ดไฟงานเชื่อม</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <img src="{{ asset('images/footers/Welding Blankets.JPG') }}" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:20px;">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <h3 style="margin-top:0px;">
+                                    <b style="color:#015f01;">
+                                        Hi-Temp Sewing Thread ด้ายทนความร้อน
+                                    </b>
+                                </h3>
+                                <ul>
+                                    <li>PTFE Sewing Thread / ด้าย PTFE</li>
+                                    <li>Aramid Sewing Thread / Kevlar Thread ด้ายเคฟล่า/ด้ายอารามิด</li>
+                                    <li>Glass Fiber Sewing Thread / ด้ายใยแก้ว</li>
+                                    <li>Stainless Steel Sewing Thread / ด้ายสแตนเลส</li>
+                                    <li>Carbon Fiber Sewing Thread / ด้ายคาร์บอน</li>
+                                    <li>Silica Fiber Sewing Thread / ด้ายซิลิก้า</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <img src="{{ asset('images/footers/Hi-Temp Sewing Thread.jpg') }}" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:20px;">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <h3 style="margin-top:0px;">
+                                    <b style="color:#015f01;">
+                                        Insulation Fasteners วัสดุยึดฉนวน
+                                    </b>
+                                </h3>
+                                <ul>
+                                    <li>Insulation Pins / หมุดยึดฉนวน / เข็มยึดฉนวน</li>
+                                    <li>Stainless Steel Hook / ตะขอสแตนเลส ยึด-เกี่ยวฉนวน</li>
+                                    <li>Lacing Anchors</li>
+                                    <li>Stud Welding Pins</li>
+                                    <li>SS D-Ring</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <img src="{{ asset('images/footers/ACCESS.JPG') }}" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:20px;">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-8 col-lg-8">
+                                <h3 style="margin-top:0px;">
+                                    <b style="color:#015f01;">
+                                        Fiber Blanket / ฉนวนแบบแผ่น
+                                    </b>
+                                </h3>
+                                <ul>
+                                    <li>Glass Wool (Glass Needled Mat)</li>
+                                    <li>(Bio-Soluble) Ceramic Fiber Blanket</li>
+                                    <li>ฉนวนเซรามิคชนิดปิดผิว</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                <img src="{{ asset('images/footers/Fiber Blanket.jpg') }}" class="img-responsive">
                             </div>
                         </div>
                     </div>
