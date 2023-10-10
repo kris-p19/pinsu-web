@@ -42,51 +42,110 @@
     </div>
     @yield('content')
 
-    <div class="container-fluid" style="margin-top: 60px;padding-top: 60px;padding-bottom: 60px;background-color:#f4f4f4;">
+    <div class="container-fluid" style="margin-top: 60px;padding-top: 60px;padding-bottom: 60px;background-color:#ffffff;">
         <div class="row">
             <div class="container">
-
-                <div class="col-md-12">
-                    <div class="col-md-7">
-                        <div class="pull-left">
-                            <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="120">
-                            <p style="padding-top:20px;">
-                                บริษัท พินซู จำกัด  212/26 หมู่ 7 ถ. บ้านกล้วย-ไทรน้อย ต.พิมลราช อ.บางบัวทอง จ.นนทบุรี 11110
-                                <br> Pinsu Co., Ltd - 212/26  Moo 7, Ban Kluai Sai Noi Road, Tambon Phimonrat, Amphoe Bang Bua thong, Nonthaburi 11110, Thailand
-                                <br> Tel : +66(0)88-243 4656 / +66(0)82-919 5356 / +66(0)2063 4564
-                                <br> Fax : +66(0)2063 4564 
-                                <br> Email : contact@pinsu.co.th / pinsu@pinsu.co.th
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="pull-right">
-                            <a href="{{ url('company') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.company') }}</a>
-                            <a href="{{ url('location') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.location') }}</a>
-                            <a href="{{ url('news') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.news') }}</a>
-
-                            <div class="text-right">
-                                <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                                <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                                <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
-                                    <i class="fa-solid fa-tty"></i>
-                                </a>
-                                <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
-                                    <i class="fa-brands fa-line"></i>
-                                </a>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr style="width:100%;height:40px;background:#e2efd9;">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fabrics / ผ้าทนความร้อน</b></h3>
+                                <ul>
+                                    <li>Glass Fabrics / ผ้าใยแก้ว</li>
+                                    <li>Silica Fabrics / ผ้าซิลิก้า</li>
+                                    <li>Ceramic Fabrics / ผ้าเซรามิค</li>
+                                    <li>Silicone Coated Fabrics / ผ้าเคลือบซิลิโคน</li>
+                                    <li>PTFE Coated Fabrics / ผ้าเคลือบ PTFE</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <img src="{{ asset('images/footers/Hi-Temp Fabrics.jpg') }}" class="img-responsive">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="row" style="margin-top:20px;">
                     <div class="col-md-12">
-                        <p style="display:inline-block;margin-right:10px;">&copy; {{ date('Y')=='2023'?date('Y'):'2023 - ' . date('Y') }} {{ __('txt.company_name') }}</p>
-                        <a href="javascipt:void(0);" style="display:inline-block;margin-right:10px;">Terms of service</a>
-                        <a href="javascipt:void(0);" style="display:inline-block;margin-right:10px;">Privacy</a>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fiber Tape / Gasket เทปพันท่อ / ปะเก็น </b></h3>
+                                <ul>
+                                    <li>Glass Fiber Tape / เทปใยแก้ว</li>
+                                    <li>Ceramic Fiber Tape / เทปเซรามิค</li>
+                                    <li>Basalt Fiber Tape / เทปใยหิน</li>
+                                    <li>Gasket / ปะเก็น</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <img src="{{ asset('images/footers/Hi-Temp Fiber Tape.jpg') }}" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top: 0px;padding-top: 60px;padding-bottom: 60px;background-color:#f4f4f4;">
+        <div class="row">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="pull-left">
+                                    <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="120">
+                                    <p style="padding-top:20px;">
+                                        บริษัท พินซู จำกัด  212/26 หมู่ 7 ถ. บ้านกล้วย-ไทรน้อย ต.พิมลราช อ.บางบัวทอง จ.นนทบุรี 11110
+                                        <br> Pinsu Co., Ltd - 212/26  Moo 7, Ban Kluai Sai Noi Road, Tambon Phimonrat, Amphoe Bang Bua thong, Nonthaburi 11110, Thailand
+                                        <br> Tel : +66(0)88-243 4656 / +66(0)82-919 5356 / +66(0)2063 4564
+                                        <br> Fax : +66(0)2063 4564 
+                                        <br> Email : contact@pinsu.co.th / pinsu@pinsu.co.th
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="pull-right">
+                                    <a href="{{ url('company') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.company') }}</a>
+                                    <a href="{{ url('location') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.location') }}</a>
+                                    <a href="{{ url('news') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.news') }}</a>
+
+                                    <div class="text-right">
+                                        <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                            <i class="fa-solid fa-tty"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                            <i class="fa-brands fa-line"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p style="display:inline-block;margin-right:10px;">&copy; {{ date('Y')=='2023'?date('Y'):'2023 - ' . date('Y') }} {{ __('txt.company_name') }}</p>
+                                <a href="javascipt:void(0);" style="display:inline-block;margin-right:10px;">Terms of service</a>
+                                <a href="javascipt:void(0);" style="display:inline-block;margin-right:10px;">Privacy</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
