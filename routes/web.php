@@ -23,3 +23,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/index', 'WelcomeController@index');
 Route::get('/company', 'CompanyController@index');
 Route::get('/product', 'ProductController@index');
+Route::get('/contact', 'ContactController@index');

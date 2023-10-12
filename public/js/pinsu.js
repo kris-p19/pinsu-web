@@ -13,7 +13,7 @@ $(document).ready(function() {
         loop:true,
         margin:0,
         responsiveClass:true,
-        autoplay:false,
+        autoplay:true,
         autoplayHoverPause:false
     });
 
