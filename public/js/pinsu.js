@@ -8,6 +8,14 @@ $(document).ready(function() {
         autoplay:true,
         autoplayHoverPause:false
     });
+    $("#pinsu-company-slide").owlCarousel({
+        items:1,
+        loop:true,
+        margin:0,
+        responsiveClass:true,
+        autoplay:false,
+        autoplayHoverPause:false
+    });
 
     // Function to update screen width and height
     function updateScreenInfo() {

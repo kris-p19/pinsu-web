@@ -40,6 +40,7 @@
             </a>
         </div>
     </div>
+    
     @yield('content')
 
     <div class="container-fluid" style="margin-top: 60px;padding-top: 60px;padding-bottom: 60px;background-color:#ffffff;">
