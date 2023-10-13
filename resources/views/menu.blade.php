@@ -6,7 +6,7 @@
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
-        <div class="col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.company') }}</a>
             <ul>
                 <li style="font-size:20px;">sub menu 1</li>
@@ -14,7 +14,7 @@
                 <li style="font-size:20px;">sub menu 1</li>
             </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.product') }}</a>
             <ul>
                 <li style="font-size:20px;">sub menu 1</li>
@@ -22,7 +22,7 @@
                 <li style="font-size:20px;">sub menu 1</li>
             </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.contact') }}</a>
             <ul>
                 <li style="font-size:20px;">sub menu 1</li>
@@ -30,7 +30,7 @@
                 <li style="font-size:20px;">sub menu 1</li>
             </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.news') }}</a>
             <ul>
                 <li style="font-size:20px;">sub menu 1</li>
@@ -38,7 +38,7 @@
                 <li style="font-size:20px;">sub menu 1</li>
             </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.admin') }}</a>
             <ul>
                 @guest

@@ -296,8 +296,8 @@
                         <div class="row">
                             <div class="col-md-12" onblur="">
                                 <p style="display:inline-block;margin-right:10px;">&copy; {{ date('Y')=='2023'?date('Y'):'2023 - ' . date('Y') }} {{ __('txt.company_name') }}</p>
-                                <a href="javascipt:void(0);" style="display:inline-block;margin-right:10px;">Terms of service</a>
-                                <a href="javascipt:void(0);" style="display:inline-block;margin-right:10px;">Privacy</a>
+                                <a href="javascript:void(0);" style="display:inline-block;margin-right:10px;">Terms of service</a>
+                                <a href="javascript:void(0);" style="display:inline-block;margin-right:10px;">Privacy</a>
                             </div>
                         </div>
                     </div>
