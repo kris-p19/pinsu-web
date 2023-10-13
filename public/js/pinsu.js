@@ -6,18 +6,28 @@ $(document).ready(function() {
         $('#loadpage').css({ height: '100vh'});
         setTimeout(() => {
             if ($(this).attr('data-toggle')=='all-menu') {
-              $('#loadpage').html(
-                '<a>ggggggg</a>'
-              );  
-            } else {
+                $.ajax({
+                    url:$('meta[name="base-url"]').attr('content') + "/menu",
+                    type:"get",
+                    success:function(res){
+                        $('#loadpage').html(res);
+                    }
+                });
+            } else if (href!='javascript:void(0);' && href!=undefined) {
                 window.location.href = href;
                 setTimeout(() => {
                     $('#loadpage').css({ height: '0vh'});
                     $('#loadpage').html('');  
                 }, 2000);
+            } else {
+                // setTimeout(() => {
+                    $('#loadpage').css({ height: '0vh'});
+                    $('#loadpage').html('');  
+                // }, 2000);
             }
         }, 800);
     });
+
     $('#loadpage').css({ height: '0vh'});
     $('#loadpage').html(''); 
 

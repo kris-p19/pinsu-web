@@ -25,3 +25,7 @@ Route::get('/company', 'CompanyController@index');
 Route::get('/product', 'ProductController@index');
 Route::get('/contact', 'ContactController@index');
 Route::get('/news', 'NewsController@index');
+
+Route::get('/menu', function(){
+    return view('menu');
+});
