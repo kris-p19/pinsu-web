@@ -9,6 +9,10 @@ return [
         'product'   => 'PRODUCT',
         'contact'   => 'CONTACT',
         'news'      => 'NEWS',
-        'location'  => 'LOCATION'
+        'location'  => 'LOCATION',
+        'admin'     => 'FOR WEBSITE ADMINS',
+        'login'     => 'LOGIN',
+        'register'  => 'REGISTER',
+        'logout'    => 'LOGOUT',
     ]
 ];

@@ -1,5 +1,5 @@
-<div class="container" style="padding: 2%;">
-    <div class="row">
+<div class="container" style="overflow-y:scroll;height:100vh;">
+    <div class="row" style="padding:2%;">
         <div class="col-md-12 text-right">
             <button style="background:transparent;border:none;font-size:30px;" type="button" onclick="$('#loadpage').css({ height: '0vh'});$('#loadpage').html('');">
                 {{-- <span class="glyphicon glyphicon-remove"></span> --}}
@@ -36,6 +36,17 @@
                 <li style="font-size:20px;">sub menu 1</li>
                 <li style="font-size:20px;">sub menu 1</li>
                 <li style="font-size:20px;">sub menu 1</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.admin') }}</a>
+            <ul>
+                @guest
+                <li style="font-size:20px;">{{ __('txt.menu.login') }}</li>
+                <li style="font-size:20px;">{{ __('txt.menu.register') }}</li>
+                @else
+                <li style="font-size:20px;">{{ __('txt.menu.logout') }}</li>
+                @endguest
             </ul>
         </div>
         <div class="col-md-12 text-right">

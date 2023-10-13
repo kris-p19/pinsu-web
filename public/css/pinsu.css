@@ -37,6 +37,17 @@ body {
     background: #f8f8f8;
     height: 1px;
 }
-.loadpage {
+#loadpage {
     color: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+* {
+    scrollbar-width: none;
+    -moz-appearance: none;
 }

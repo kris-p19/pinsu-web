@@ -20,10 +20,8 @@ $(document).ready(function() {
                     $('#loadpage').html('');  
                 }, 2000);
             } else {
-                // setTimeout(() => {
-                    $('#loadpage').css({ height: '0vh'});
-                    $('#loadpage').html('');  
-                // }, 2000);
+                $('#loadpage').css({ height: '0vh'});
+                $('#loadpage').html('');
             }
         }, 800);
     });
