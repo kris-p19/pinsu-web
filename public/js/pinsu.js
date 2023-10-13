@@ -1,4 +1,25 @@
 $(document).ready(function() {
+    $(document).on("click", "a", function(e) {
+        e.preventDefault();
+        //this == the link that was clicked
+        var href = $(this).attr("href");
+        $('#loadpage').css({ height: '100vh'});
+        setTimeout(() => {
+            if ($(this).attr('data-toggle')=='all-menu') {
+              $('#loadpage').html(
+                '<a>ggggggg</a>'
+              );  
+            } else {
+                window.location.href = href;
+                setTimeout(() => {
+                    $('#loadpage').css({ height: '0vh'});
+                    $('#loadpage').html('');  
+                }, 2000);
+            }
+        }, 800);
+    });
+    $('#loadpage').css({ height: '0vh'});
+    $('#loadpage').html(''); 
 
     $("#pinsu-main-slide").owlCarousel({
         items:1,
