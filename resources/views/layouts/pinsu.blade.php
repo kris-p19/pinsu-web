@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,6 +29,12 @@
             <a href="{{ url('product') }}" class="pinsu-nav-item pxl hvr-underline-from-center">{{ __('txt.menu.product') }}</a>
             <a href="{{ url('contact') }}" class="pinsu-nav-item pxl hvr-underline-from-center">{{ __('txt.menu.contact') }}</a>
             <a href="{{ url('news') }}" class="pinsu-nav-item pxl hvr-underline-from-center">{{ __('txt.menu.news') }}</a>
+            <a href="{{ url('local/th') }}" class="pinsu-nav-item">
+                <img src="https://cdn-icons-png.flaticon.com/128/330/330447.png" style="{{ app()->getLocale()=='th'?'filter:grayscale(0);':'filter:grayscale(1);' }}width:30px;margin-top:-5px;">
+            </a>
+            <a href="{{ url('local/en') }}" class="pinsu-nav-item">
+                <img src="https://cdn-icons-png.flaticon.com/128/330/330425.png" style="{{ app()->getLocale()=='en'?'filter:grayscale(0);':'filter:grayscale(1);' }}width:30px;margin-top:-5px;">
+            </a>
             <a class="pinsu-nav-item">
                 <span class="material-icons-outlined">
                     search
@@ -43,7 +49,7 @@
     </div>
     
     @yield('content')
-
+    
     <div class="container-fluid" style="margin-top: 0px;padding-top: 0px;padding-bottom: 60px;background-color:#ffffff;">
         <div class="row">
             <div class="container">

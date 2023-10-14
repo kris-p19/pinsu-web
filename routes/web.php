@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\Facades\App;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +20,11 @@ Route::get('/', function () {
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/local/{local}', function($local){
+    session()->put('locale', $local);
+    return redirect()->back();
+});
 
 Route::get('/index', 'WelcomeController@index');
 Route::get('/company', 'CompanyController@index');

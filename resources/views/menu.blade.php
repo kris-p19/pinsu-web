@@ -42,8 +42,8 @@
             <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.admin') }}</a>
             <ul>
                 @guest
-                <li style="font-size:20px;">{{ __('txt.menu.login') }}</li>
-                <li style="font-size:20px;">{{ __('txt.menu.register') }}</li>
+                <li style="font-size:20px;"><a href="{{ url('login') }}">{{ __('txt.menu.login') }}</a></li>
+                <li style="font-size:20px;"><a href="{{ url('register') }}">{{ __('txt.menu.register') }}</a></li>
                 @else
                 <li style="font-size:20px;">{{ __('txt.menu.logout') }}</li>
                 @endguest
