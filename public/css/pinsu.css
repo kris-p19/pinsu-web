@@ -22,6 +22,9 @@ body {
     color: white;
     text-decoration: none;
     cursor: pointer;
+
+    border: 1px solid;
+    box-shadow: 5px 10px #888888;
 }
 .pinsu-nav-item:hover {
     color: white;

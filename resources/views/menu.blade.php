@@ -50,6 +50,12 @@
             </ul>
         </div>
         <div class="col-md-12 text-right">
+            <a href="{{ url('local/th') }}" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                <img src="https://cdn-icons-png.flaticon.com/128/330/330447.png" style="{{ app()->getLocale()=='th'?'filter:grayscale(0);':'filter:grayscale(1);' }}width:30px;margin-top:-5px;">
+            </a>
+            <a href="{{ url('local/en') }}" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                <img src="https://cdn-icons-png.flaticon.com/128/330/330425.png" style="{{ app()->getLocale()=='en'?'filter:grayscale(0);':'filter:grayscale(1);' }}width:30px;margin-top:-5px;">
+            </a>
             <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
                 <i class="fa-brands fa-facebook-f"></i>
             </a>

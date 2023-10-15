@@ -4,7 +4,6 @@
 <div style="position: absolute; width: 100%; top: 0; z-index: -1;">
     <div class="container-fluid">
         <div class="row">
-            <div style="width: 100%;background: #ffbf00c9;height: 11vh;position: absolute;z-index: 2;"></div>
             <div class="owl-carousel" id="pinsu-main-slide">
                 <div>
                     <a>
