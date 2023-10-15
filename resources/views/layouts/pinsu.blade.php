@@ -60,11 +60,11 @@
                             <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fabrics / ผ้าทนความร้อน</b></h3>
                                 <ul>
-                                    <li>Glass Fabrics / ผ้าใยแก้ว</li>
-                                    <li>Silica Fabrics / ผ้าซิลิก้า</li>
-                                    <li>Ceramic Fabrics / ผ้าเซรามิค</li>
-                                    <li>Silicone Coated Fabrics / ผ้าเคลือบซิลิโคน</li>
-                                    <li>PTFE Coated Fabrics / ผ้าเคลือบ PTFE</li>
+                                    <li><a href="">Glass Fabrics / ผ้าใยแก้ว</a></li>
+                                    <li><a href="">Silica Fabrics / ผ้าซิลิก้า</a></li>
+                                    <li><a href="">Ceramic Fabrics / ผ้าเซรามิค</a></li>
+                                    <li><a href="">Silicone Coated Fabrics / ผ้าเคลือบซิลิโคน</a></li>
+                                    <li><a href="">PTFE Coated Fabrics / ผ้าเคลือบ PTFE</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
@@ -79,10 +79,10 @@
                             <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fiber Tape / Gasket เทปพันท่อ / ปะเก็น</b></h3>
                                 <ul>
-                                    <li>Glass Fiber Tape / เทปใยแก้ว</li>
-                                    <li>Ceramic Fiber Tape / เทปเซรามิค</li>
-                                    <li>Basalt Fiber Tape / เทปใยหิน</li>
-                                    <li>Gasket / ปะเก็น</li>
+                                    <li><a href="">Glass Fiber Tape / เทปใยแก้ว</a></li>
+                                    <li><a href="">Ceramic Fiber Tape / เทปเซรามิค</a></li>
+                                    <li><a href="">Basalt Fiber Tape / เทปใยหิน</a></li>
+                                    <li><a href="">Gasket / ปะเก็น</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
@@ -97,12 +97,12 @@
                             <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;"><b style="color:#015f01;">Removable Insulations / ฉนวนความร้อนแบบถอดได้</b></h3>
                                 <ul>
-                                    <li>ฉนวนเตาอบอุตสาหกรรม</li>
-                                    <li>ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</li>
-                                    <li>ฉนวนหุ้มเครื่องฉีดพลาสติก</li>
-                                    <li>ฉนวนหุ้ม Heater</li>
-                                    <li>ฉนวนหุ้มท่อ Boiler</li>
-                                    <li>ฉนวนเทอร์ไบน์ (Turbine Insulation)</li>
+                                    <li><a href="">ฉนวนเตาอบอุตสาหกรรม</a></li>
+                                    <li><a href="">ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</a></li>
+                                    <li><a href="">ฉนวนหุ้มเครื่องฉีดพลาสติก</a></li>
+                                    <li><a href="">ฉนวนหุ้ม Heater</a></li>
+                                    <li><a href="">ฉนวนหุ้มท่อ Boiler</a></li>
+                                    <li><a href="">ฉนวนเทอร์ไบน์ (Turbine Insulation)</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
@@ -150,10 +150,10 @@
                                     </b>
                                 </h3>
                                 <ul>
-                                    <li>ผ้ากันสะเก็ดไฟแบบประหยัด / งานเบา</li>
-                                    <li>ผ้ากันสะเก็ดไฟสำหรับงานเชื่อม/ตัดโลหะ</li>
-                                    <li>ผ้ากันสะเก็ดไฟชนิดไม่คัน</li>
-                                    <li>ม่านกรองแสงสะเก็ดไฟงานเชื่อม</li>
+                                    <li><a href="">ผ้ากันสะเก็ดไฟแบบประหยัด / งานเบา</a></li>
+                                    <li><a href="">ผ้ากันสะเก็ดไฟสำหรับงานเชื่อม / ตัดโลหะ</a></li>
+                                    <li><a href="">ผ้ากันสะเก็ดไฟชนิดไม่คัน</a></li>
+                                    <li><a href="">ม่านกรองแสงสะเก็ดไฟงานเชื่อม</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
@@ -172,12 +172,12 @@
                                     </b>
                                 </h3>
                                 <ul>
-                                    <li>PTFE Sewing Thread / ด้าย PTFE</li>
-                                    <li>Aramid Sewing Thread / Kevlar Thread ด้ายเคฟล่า/ด้ายอารามิด</li>
-                                    <li>Glass Fiber Sewing Thread / ด้ายใยแก้ว</li>
-                                    <li>Stainless Steel Sewing Thread / ด้ายสแตนเลส</li>
-                                    <li>Carbon Fiber Sewing Thread / ด้ายคาร์บอน</li>
-                                    <li>Silica Fiber Sewing Thread / ด้ายซิลิก้า</li>
+                                    <li><a href="">PTFE Sewing Thread / ด้าย PTFE</a></li>
+                                    <li><a href="">Aramid Sewing Thread / Kevlar Thread ด้ายเคฟล่า / ด้ายอารามิด</a></li>
+                                    <li><a href="">Glass Fiber Sewing Thread / ด้ายใยแก้ว</a></li>
+                                    <li><a href="">Stainless Steel Sewing Thread / ด้ายสแตนเลส</a></li>
+                                    <li><a href="">Carbon Fiber Sewing Thread / ด้ายคาร์บอน</a></li>
+                                    <li><a href="">Silica Fiber Sewing Thread / ด้ายซิลิก้า</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
@@ -196,11 +196,11 @@
                                     </b>
                                 </h3>
                                 <ul>
-                                    <li>Insulation Pins / หมุดยึดฉนวน / เข็มยึดฉนวน</li>
-                                    <li>Stainless Steel Hook / ตะขอสแตนเลส ยึด-เกี่ยวฉนวน</li>
-                                    <li>Lacing Anchors</li>
-                                    <li>Stud Welding Pins</li>
-                                    <li>SS D-Ring</li>
+                                    <li><a href="">Insulation Pins / หมุดยึดฉนวน / เข็มยึดฉนวน</a></li>
+                                    <li><a href="">Stainless Steel Hook / ตะขอสแตนเลส ยึด-เกี่ยวฉนวน</a></li>
+                                    <li><a href="">Lacing Anchors</a></li>
+                                    <li><a href="">Stud Welding Pins</a></li>
+                                    <li><a href="">SS D-Ring</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
@@ -219,9 +219,9 @@
                                     </b>
                                 </h3>
                                 <ul>
-                                    <li>Glass Wool (Glass Needled Mat)</li>
-                                    <li>(Bio-Soluble) Ceramic Fiber Blanket</li>
-                                    <li>ฉนวนเซรามิคชนิดปิดผิว</li>
+                                    <li><a href="">Glass Wool (Glass Needled Mat)</a></li>
+                                    <li><a href="">(Bio-Soluble) Ceramic Fiber Blanket</a></li>
+                                    <li><a href="">ฉนวนเซรามิคชนิดปิดผิว</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
@@ -236,14 +236,12 @@
                             <div class="col-sm-6 col-md-6 col-lg-6">
                                 <h3 style="margin-top:0px;">
                                     <b style="color:#015f01;">
-                                        Work Tents เต็นท์ผ้าใบ
+                                        Work Tents
                                     </b>
                                 </h3>
-                                <!-- <ul>
-                                    <li>Glass Wool (Glass Needled Mat)</li>
-                                    <li>(Bio-Soluble) Ceramic Fiber Blanket</li>
-                                    <li>ฉนวนเซรามิคชนิดปิดผิว</li>
-                                </ul> -->
+                                <ul>
+                                    <li><a href="">เต็นท์ผ้าใบ</a></li>
+                                </ul>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
                                 <img src="{{ asset('images/footers/Work Tent.jpg') }}" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
