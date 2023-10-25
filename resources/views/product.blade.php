@@ -18,9 +18,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="panel-body" style="background-color: #ffc000ed/*#ffc000*/;color:white;min-height:300px;padding:30px;margin-top:95vh;">
-                    <h1 style="font-size:50px;">Our quality and service can boost the Energy in your production.</h1>
-                    <p style="font-size:20px;">
+                <div class="panel-body" style="background-color: {!! config('app.colorBody') !!};min-height:300px;padding:30px;margin-top:95vh;">
+                    <p style="font-size:25px;color:green;background-color:#fff2cc;padding:20px;float:right;width:350px;">
+                        Our quality and service can boost the <u style="color:red;">Energy</u> in your production.
+                    </p>
+                    <p style="font-size:20px;text-align:justify;float:left;display:contents;">
+                        @for($i = 0; $i < 7; $i++) &nbsp; @endfor 
                         บริษัท พินซู จำกัด จำหน่ายผ้าทนความร้อนชนิดต่างๆ ทั้งผ้าใยแก้ว(Glass Fiber Fabrics / Fiberglass Cloth) ผ้าซิลิก้า (Silica Fabrics/Silica Cloth) ผ้าเซรามิค(Ceramic Fabrics / Ceramic Cloth) เทปใยแก้ว(Glass Tape / Glass Fiber Tape) เทปเซรามิค(Ceramic Tape / Ceramic Fiber Tape) เชือกใยแก้ว(Glass Rope / Glass Fiber Rope) เชือกเซรามิค (Ceramic Rope / Ceramic Fiber Rope) ปะเก็นใยแก้ว (Fiberglass Gasket) ปะเก็นเซรามิค (Ceramic Fiber Gasket) ปะเก็นทนความร้อนสูง (Hi-Temp Gasket) ผ้าและวัสดุสำหรับใช้ในงานฉนวนทนความร้อน (Thermal Insulation) ฉนวนแบบถอดได้(Removable Insulation) ผ้ากันสะเก็ดไฟ (Welding Blanket) ผ้าทนความร้อน (Hi-Temp Fabrics/ Hi-Temp Cloth) ผ้ากันความร้อน(Heat Protective Fabrics / Heat Protective Cloth) ผ้าห่มดับไฟ(Fire Blanket) ข้อต่อท่อลมร้อน (Expansion Joint / Flexible Joint) ข้อต่อท่อลมแบบยืดหยุ่น เป็นต้น เรายังเป็นผู้ให้บริการตัดเย็บผ้ากันสะเก็ดไฟ / ตัดเย็บพร้อมติดตั้งงานฉนวนตามแบบที่ลูกค้าต้องการอีกด้วย
                     </p>
                 </div>
