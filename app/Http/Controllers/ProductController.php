@@ -6,8 +6,10 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index() 
+    public function index(Request $request) 
     {
-        return view('product');
+        return view('product',[
+            'path' => $request->path()
+        ]);
     }
 }

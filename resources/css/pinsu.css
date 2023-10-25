@@ -22,6 +22,7 @@ body {
     color: white;
     text-decoration: none;
     cursor: pointer;
+    margin: auto;
 
     /* border: 0px solid;
     box-shadow: 2px 2px #888888;
@@ -58,13 +59,8 @@ body {
 a {
     cursor: pointer;
 }
-.square {
-    width: 50%; /* Set the width to 50% of the parent container's width */
-    padding-bottom: 50%; /* Set the height to be the same as the width to create a square */
-    background-color: #3498db; /* Background color */
-    color: #fff; /* Text color */
-    text-align: center; /* Center the text horizontally and vertically */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.menu-active {
+    background-color: #8e8d8d;
+    border-radius: 20px;
+    box-shadow: 2px 2px #000;
 }

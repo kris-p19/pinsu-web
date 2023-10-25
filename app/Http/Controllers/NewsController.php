@@ -6,8 +6,10 @@ use Illuminate\Http\Request;
 
 class NewsController extends Controller
 {
-    public function index() 
+    public function index(Request $request) 
     {
-        return view('news');
+        return view('news',[
+            'path' => $request->path()
+        ]);
     }
 }

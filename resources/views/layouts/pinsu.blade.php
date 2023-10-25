@@ -24,11 +24,11 @@
             <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="150">
         </a>
         <div class="pinsu-nav-menu">
-            <a href="{{ url('index') }}" class="pinsu-nav-item pxl hvr-underline-from-center">{{ __('txt.menu.home') }}</a>
-            <a href="{{ url('company') }}" class="pinsu-nav-item pxl hvr-underline-from-center">{{ __('txt.menu.company') }}</a>
-            <a href="{{ url('product') }}" class="pinsu-nav-item pxl hvr-underline-from-center">{{ __('txt.menu.product') }}</a>
-            <a href="{{ url('contact') }}" class="pinsu-nav-item pxl hvr-underline-from-center">{{ __('txt.menu.contact') }}</a>
-            <a href="{{ url('news') }}" class="pinsu-nav-item pxl hvr-underline-from-center">{{ __('txt.menu.news') }}</a>
+            <a href="{{ url('index') }}" class="pinsu-nav-item pxl hvr-underline-from-center {{ $path=='index'?'menu-active':'' }}">{{ __('txt.menu.home') }}</a>
+            <a href="{{ url('company') }}" class="pinsu-nav-item pxl hvr-underline-from-center {{ $path=='company'?'menu-active':'' }}">{{ __('txt.menu.company') }}</a>
+            <a href="{{ url('product') }}" class="pinsu-nav-item pxl hvr-underline-from-center {{ $path=='product'?'menu-active':'' }}">{{ __('txt.menu.product') }}</a>
+            <a href="{{ url('contact') }}" class="pinsu-nav-item pxl hvr-underline-from-center {{ $path=='contact'?'menu-active':'' }}">{{ __('txt.menu.contact') }}</a>
+            <a href="{{ url('news') }}" class="pinsu-nav-item pxl hvr-underline-from-center {{ $path=='news'?'menu-active':'' }}">{{ __('txt.menu.news') }}</a>
             <a href="{{ url('local/th') }}" class="pinsu-nav-item">
                 <img src="https://cdn-icons-png.flaticon.com/128/330/330447.png" style="{{ app()->getLocale()=='th'?'filter:grayscale(0);':'filter:grayscale(1);' }}width:30px;margin-top:-5px;">
             </a>
