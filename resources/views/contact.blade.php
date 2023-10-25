@@ -38,7 +38,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="panel-body" style="background-color: #ffc000ed/*#ffc000*/;color:white;min-height:300px;padding:30px;margin-top:70vh;">
+                <div class="panel-body" style="background-color: #ffc000ed/*#ffc000*/;color:white;min-height:300px;padding:30px;margin-top:95vh;">
                     <h1 style="font-size:50px;">บริษัท พินซู จำกัด</h1>
                     <p style="font-size:20px;">
                         212/26 หมู่ 7 ถ. บ้านกล้วย-ไทรน้อย ต.พิมลราช อ.บางบัวทอง จ.นนทบุรี 11110

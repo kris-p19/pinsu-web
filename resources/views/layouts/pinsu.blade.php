@@ -253,7 +253,7 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="margin-top: 0px;padding-top: 60px;padding-bottom: 60px;background-color:#f4f4f4;">
+    <div class="container-fluid" style="margin-top: 0px;padding-top: 60px;padding-bottom: 60px;background-color:#fff2cc;">
         <div class="row">
             <div class="container">
 

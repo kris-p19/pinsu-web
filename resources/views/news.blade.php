@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="panel-body" style="background-color: #ffc000ed/*#ffc000*/;color:white;min-height:100px;padding:26px;margin-top:70vh;margin-bottom:20px;">
+                <div class="panel-body" style="background-color: #ffc000ed/*#ffc000*/;color:white;min-height:100px;padding:26px;margin-top:95vh;margin-bottom:20px;">
                     <h1 style="font-size:50px;">ข่าวสารอัพเดท</h1>
                 </div>
             </div>

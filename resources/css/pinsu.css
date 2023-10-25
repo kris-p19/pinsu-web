@@ -58,3 +58,13 @@ body {
 a {
     cursor: pointer;
 }
+.square {
+    width: 50%; /* Set the width to 50% of the parent container's width */
+    padding-bottom: 50%; /* Set the height to be the same as the width to create a square */
+    background-color: #3498db; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center; /* Center the text horizontally and vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
