@@ -35,11 +35,11 @@
             <a href="{{ url('local/en') }}" class="pinsu-nav-item">
                 <img src="https://cdn-icons-png.flaticon.com/128/330/330425.png" style="{{ app()->getLocale()=='en'?'filter:grayscale(0);':'filter:grayscale(1);' }}width:30px;margin-top:-5px;">
             </a>
-            <a class="pinsu-nav-item">
+            {{-- <a class="pinsu-nav-item">
                 <span class="material-icons-outlined">
                     search
                 </span>
-            </a>
+            </a> --}}
             <a class="pinsu-nav-item" data-toggle="all-menu">
                 <span class="material-icons-outlined">
                     menu
@@ -274,9 +274,9 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="pull-right">
-                                    <a href="{{ url('company') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.company') }}</a>
+                                    {{-- <a href="{{ url('company') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.company') }}</a>
                                     <a href="{{ url('location') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.location') }}</a>
-                                    <a href="{{ url('news') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.news') }}</a>
+                                    <a href="{{ url('news') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.news') }}</a> --}}
 
                                     <div class="text-right">
                                         <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
@@ -296,12 +296,13 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-12" onblur="">
                                 <p style="display:inline-block;margin-right:10px;">&copy; {{ date('Y')=='2023'?date('Y'):'2023 - ' . date('Y') }} {{ __('txt.company_name') }}</p>
-                                <a href="javascript:void(0);" style="display:inline-block;margin-right:10px;">Terms of service</a>
-                                <a href="javascript:void(0);" style="display:inline-block;margin-right:10px;">Privacy</a>
+                                {{-- <a href="javascript:void(0);" style="display:inline-block;margin-right:10px;">Terms of service</a>
+                                <a href="javascript:void(0);" style="display:inline-block;margin-right:10px;">Privacy</a> --}}
                             </div>
                         </div>
                     </div>

@@ -4,8 +4,9 @@ body {
 .pinsu-nav {
     /* background-color: #060665; */
     padding: 10px;
+    padding-top: 20px;
     width: 100%;
-    height: 75px;
+    height: 90px;
 }
 .pinsu-navbar-logo {
     float: left;
@@ -23,6 +24,8 @@ body {
     text-decoration: none;
     cursor: pointer;
     margin: auto;
+    min-width: 50px;
+    text-align: center;
 
     /* border: 0px solid;
     box-shadow: 2px 2px #888888;
@@ -60,7 +63,7 @@ a {
     cursor: pointer;
 }
 .menu-active {
-    background-color: #8e8d8d;
+    background-color: #8e8d8da6;
     border-radius: 20px;
-    box-shadow: 2px 2px #000;
+    box-shadow: 2px 1px #000;
 }

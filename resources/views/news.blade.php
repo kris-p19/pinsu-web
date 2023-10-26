@@ -24,13 +24,43 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        ข่าวที่ 1
-                    </div>
+                @if(!empty($read))
+                <div class="col-md-12">
+                    <h1 class="text-center">{{ $read->subject }}</h1>
+                    <div style="text-align:justify;font-size:20px;padding-top:20px;padding-bottom:20px;">@for ($i = 0; $i < 7; $i++) &nbsp; @endfor{!! $read->content !!}</div>
+                    @if (!empty($read->picture))
+                        @foreach (json_decode($read->picture) as $img)
+                        <div class="col-sm-6 col-md-6">
+                            <img src="{{ asset('images/news/' . $img) }}" class="img-responsive" style="width:100%;">
+                        </div>
+                        @endforeach
+                    @endif
+                    <p>{{ $read->created_at }}</p>
                 </div>
-            </div>
+                @endif
+
+                @foreach ($data as $item)
+                <div class="col-md-12">
+                    <a href="{{ url('news/read') }}?id={{ $item->id }}">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <h3><u>{{ $item->subject }}</u></h3>
+                                {{-- <p>{!! $item->content !!}</p>
+                                @if (!empty($item->picture))
+                                    @foreach (json_decode($item->picture) as $img)
+                                        <div class="col-md-6">
+                                            <img src="{{ asset('images/news/' . $img) }}" class="img-responsive" style="width:100%;">
+                                        </div>
+                                    @endforeach
+                                @endif --}}
+                            </div>
+                            <div class="panel-footer">
+                                {{ $item->created_at }}
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                @endforeach
         </div>
     </div>
 </div>

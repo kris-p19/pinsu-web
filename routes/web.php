@@ -32,6 +32,27 @@ Route::get('/product', 'ProductController@index');
 Route::get('/contact', 'ContactController@index');
 Route::get('/news', 'NewsController@index');
 
+Route::get('/news/read', 'NewsController@index');
+
 Route::get('/menu', function(){
     return view('menu');
+});
+
+Route::group(['prefix'=>'ma', 'middleware'=>['auth']],function(){
+    Route::get('content', function(){
+        return view('ma.content');
+    });
+
+    Route::get('news', function(){
+        
+        if (!empty(request()->delete)) {
+            DB::table('news')->where('id',request()->delete)->delete();
+        }
+
+        return view('ma.news',[
+            'data' => DB::table('news')->orderBy('created_at','desc')->get()
+        ]);
+    });
+    Route::post('news/post', 'NewsController@store');
+    Route::post('news/post-update', 'NewsController@update');
 });
