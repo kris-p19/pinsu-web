@@ -9,22 +9,37 @@
             <a href="{{ url('company') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.company') }}</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <a href="{{ url('product') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.product') }}</a>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <a href="{{ url('contact') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.contact') }}</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <a href="{{ url('news') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.news') }}</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <a href="{{ url('product') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.product') }}</a>
+            <ul>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Glass-Fabrics') }}">Glass-Fabrics</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Silica-Fabrics') }}">Silica-Fabrics</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Ceramic-Fabrics') }}">Ceramic-Fabrics</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Silicone-Coated-Fabrics') }}">Silicone-Coated-Fabrics</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('PTFE-Coated-Fabrics') }}">PTFE-Coated-Fabrics</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Hi-Temp-Fabric-Tape') }}">Hi-Temp-Fabric-Tape</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Flexible-Joint-Ducts') }}">Flexible-Joint-Ducts</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Welding-Blanket-Fire-Blanket') }}">Welding-Blanket-Fire-Blanket</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Removable-Insulation') }}">Removable-Insulation</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Insulation-Accessories') }}">Insulation-Accessories</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Hi-Temp-Sewing-Thread') }}">Hi-Temp-Sewing-Thread</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Temporary-Work-Shop') }}">Temporary-Work-Shop</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('Fiber-Blanket') }}">Fiber-Blanket</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <a href="{{ url('ma/home') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.admin') }}</a>
             <ul>
                 @guest
-                <li style="font-size:20px;"><a href="{{ url('login') }}">{{ __('txt.menu.login') }}</a></li>
-                <li style="font-size:20px;"><a href="{{ url('register') }}">{{ __('txt.menu.register') }}</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('login') }}">{{ __('txt.menu.login') }}</a></li>
+                <li><a style="font-size:20px;color:white;" href="{{ url('register') }}">{{ __('txt.menu.register') }}</a></li>
                 @else
-                <li style="font-size:20px;"><a href="{{ url('logout') }}" onclick="event.preventDefault();
+                <li><a style="font-size:20px;color:white;" href="{{ url('logout') }}" onclick="event.preventDefault();
                     document.getElementById('logout-form').submit();">{{ __('txt.menu.logout') }}</a></li>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                         @csrf
