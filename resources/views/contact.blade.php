@@ -38,22 +38,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="panel-body text-center" style="background-color: #ffd966;color:green;min-height:300px;padding:30px;margin-top:95vh;">
-                    <h1 style="font-size:50px;">บริษัท พินซู จำกัด</h1>
-                    <p style="font-size:20px;">
-                        212/26 หมู่ 7 ถ. บ้านกล้วย-ไทรน้อย ต.พิมลราช อ.บางบัวทอง จ.นนทบุรี 11110
-                        <br>Pinsu Co., Ltd.
-                        <br>212/26  Moo 7, Ban Kluai Sai Noi Road, Tambon Phimonrat,
-                        <br>Amphoe Bang Bua thong, Nonthaburi 11110, Thailand
-                        <br>
-                        <br>Tel :   <a href="tel:0882434656">+66(0)88-243 4656</a> / 
-                                    <a href="tel:0829195356">+66(0)82-919 5356</a> / 
-                                    <a href="tel:020634564">+66(0)2063 4564</a>  
-                        <br>Fax :   <a href="tel:020634564">+66(0)2063 4564</a> 
-                        <br>Email:  <a href="mailto:contact@pinsu.co.th">contact@pinsu.co.th</a> /
-                                    <a href="mailto:pinsu@pinsu.co.th">pinsu@pinsu.co.th</a>
-                    </p>
-                </div>
+
+                @if (app()->getLocale()=='th')
+                {!! DB::table('contents')->where('id',4)->first()->content_th !!}
+                @else
+                {!! DB::table('contents')->where('id',4)->first()->content_en !!}
+                @endif
+
             </div>
         </div>
     </div>
