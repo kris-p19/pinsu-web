@@ -3472,8 +3472,120 @@ class CreateContentsTable extends Migration
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
-                'content_en' => '',
+                'content_th' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>วัสดุยึดฉนวน</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size: 25px;"><u>ตะขอสแตนเลสยึดฉนวน - Stainless Steel Hook</u></h4>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/Stainless Hook.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>ตะขอก้านยาวพร้อมแผ่นยึด (Lacing Anchors)</b></u>
+                    </h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/ตะขอก้านยาว.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>D-Ring - แหวนตัว D สำหรับทำเข็มขัดยึดฉนวน</b></u>
+                    </h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/D-Ring.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>เข็มขัดซิลิโคน / เข็มขัด Teflon PTFE สำหรับรัดแผ่นฉนวนอย่างง่าย (พร้อมหูสำหรับเก็บสายรัด) Standard Size :  25mm Width x 1450mm L</b></u>
+                    </h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/เข็มขัด.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/PTFE Belt Silicone Belt.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
+                'content_en' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>วัสดุยึดฉนวน</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size: 25px;"><u>ตะขอสแตนเลสยึดฉนวน - Stainless Steel Hook</u></h4>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/Stainless Hook.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>ตะขอก้านยาวพร้อมแผ่นยึด (Lacing Anchors)</b></u>
+                    </h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/ตะขอก้านยาว.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>D-Ring - แหวนตัว D สำหรับทำเข็มขัดยึดฉนวน</b></u>
+                    </h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/D-Ring.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>เข็มขัดซิลิโคน / เข็มขัด Teflon PTFE สำหรับรัดแผ่นฉนวนอย่างง่าย (พร้อมหูสำหรับเก็บสายรัด) Standard Size :  25mm Width x 1450mm L</b></u>
+                    </h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/เข็มขัด.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-16/PTFE Belt Silicone Belt.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
