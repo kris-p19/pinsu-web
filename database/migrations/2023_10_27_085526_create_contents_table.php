@@ -3758,14 +3758,230 @@ class CreateContentsTable extends Migration
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
-                'content_en' => '',
+                'content_th' => '<div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>Temporary Workshop</b></u></h2>
+                    <h3>เต้นท์ผ้าใบกันแดด/กันฝนสำหรับ Filter Bag House เพื่อให้งานการซ่อมบำรุงกลางแจ้งเป็นไปด้วยความสะดวกและราบรื่น  บริษัทพินซูจำกัด บริการตัดเย็บเต้นท์ผ้าใบขนาดต่างๆตามที่ลูกค้าต้องการ</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-18/Pic-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
+                'content_en' => '<div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>Temporary Workshop</b></u></h2>
+                    <h3>เต้นท์ผ้าใบกันแดด/กันฝนสำหรับ Filter Bag House เพื่อให้งานการซ่อมบำรุงกลางแจ้งเป็นไปด้วยความสะดวกและราบรื่น  บริษัทพินซูจำกัด บริการตัดเย็บเต้นท์ผ้าใบขนาดต่างๆตามที่ลูกค้าต้องการ</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-18/Pic-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
-                'content_en' => '',
+                'content_th' => '<div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>Hi-Temp Fiber Blanket</b></u></h2>
+                    <h3>บริษัท พินซู จำกัด จำหน่ายแผ่นฉนวนชนิดต่างๆ แผ่นฉนวนใยแก้ว แผ่นฉนวนเซรามิค (Ceramic Fiber Blanket) Ceramic Fiber Paper</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>E-Glass Needled Mat</b></u></h2>
+                    <h3>ผลิตจากเส้นใยแก้วชนิด E-Glass ขนาดต่างๆนำมาเย็บติดกันหลายๆชั้นเป็นแผ่นจึงเรียกว่า Glass Needled Mat ซึ่งมีความหนาแน่น (Density) สูงถึง 160kgs/m³ ใช้งานง่าย ไม่ลุ่ยเวลาตัด สามารถทนอุณหภูมิได้ถึง 600°C เหมาะสำหรับงานฉนวนต่างๆ ใช้เป็นใส้กรองท่อไอเสียรถยนต์ ท่อไอเสียมอเตอร์ไซค์ เป็นฉนวนหุ้มท่อร้อน ท่อBoiler / ท่อสตีม ฉนวนแบบถอดได้ (Removable Insulation Jacket) ในอุตสาหกรรมต่าง ๆ</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/Glass Needled Mat.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5mm</td>
+                                <td>1000mm</td>
+                                <td>50M</td>
+                            </tr>
+                            <tr>
+                                <td>10mm</td>
+                                <td>1000mm</td>
+                                <td>20M</td>
+                            </tr>
+                            <tr>
+                                <td>15mm</td>
+                                <td>1000mm</td>
+                                <td>15M</td>
+                            </tr>
+                            <tr>
+                                <td>25mm</td>
+                                <td>1000mm</td>
+                                <td>10M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>Bio-Soluble Ceramic Fiber Blanket</b></u></h2>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/Bio Soluble.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>เซรามิคไฟเบอร์ (Ceramic Fiber Blanket)</b></u></h2>
+                    <h2><u><b>ชนิดปิดผิวสำหรับหุ้ม Turbine</b></u></h2>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/xxx-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/xxx-2.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/xxx-3.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/Ceramic ปิดผิว-2.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>Ceramic Paper</b></u></h2>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/Ceramic Paper.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
+                'content_en' => '<div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>Hi-Temp Fiber Blanket</b></u></h2>
+                    <h3>บริษัท พินซู จำกัด จำหน่ายแผ่นฉนวนชนิดต่างๆ แผ่นฉนวนใยแก้ว แผ่นฉนวนเซรามิค (Ceramic Fiber Blanket) Ceramic Fiber Paper</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>E-Glass Needled Mat</b></u></h2>
+                    <h3>ผลิตจากเส้นใยแก้วชนิด E-Glass ขนาดต่างๆนำมาเย็บติดกันหลายๆชั้นเป็นแผ่นจึงเรียกว่า Glass Needled Mat ซึ่งมีความหนาแน่น (Density) สูงถึง 160kgs/m³ ใช้งานง่าย ไม่ลุ่ยเวลาตัด สามารถทนอุณหภูมิได้ถึง 600°C เหมาะสำหรับงานฉนวนต่างๆ ใช้เป็นใส้กรองท่อไอเสียรถยนต์ ท่อไอเสียมอเตอร์ไซค์ เป็นฉนวนหุ้มท่อร้อน ท่อBoiler / ท่อสตีม ฉนวนแบบถอดได้ (Removable Insulation Jacket) ในอุตสาหกรรมต่าง ๆ</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/Glass Needled Mat.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5mm</td>
+                                <td>1000mm</td>
+                                <td>50M</td>
+                            </tr>
+                            <tr>
+                                <td>10mm</td>
+                                <td>1000mm</td>
+                                <td>20M</td>
+                            </tr>
+                            <tr>
+                                <td>15mm</td>
+                                <td>1000mm</td>
+                                <td>15M</td>
+                            </tr>
+                            <tr>
+                                <td>25mm</td>
+                                <td>1000mm</td>
+                                <td>10M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>Bio-Soluble Ceramic Fiber Blanket</b></u></h2>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/Bio Soluble.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>เซรามิคไฟเบอร์ (Ceramic Fiber Blanket)</b></u></h2>
+                    <h2><u><b>ชนิดปิดผิวสำหรับหุ้ม Turbine</b></u></h2>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/xxx-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/xxx-2.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/xxx-3.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/Ceramic ปิดผิว-2.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <h2><u><b>Ceramic Paper</b></u></h2>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-19/Ceramic Paper.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ]

@@ -86,7 +86,12 @@ class WelcomeController extends Controller
                 ];
                 break;
             case 'Fiber-Blanket': 
-                $data = Content::where('id',18)->first();
+                $data = Content::where('id',18)->first(); // 19
+                $slide = [
+                    asset('images/slides/page-19/Header.JPG'),
+                    asset('images/slides/page-19/Slide-1.jpg'),
+                    asset('images/slides/page-19/Slide-2.jpg')
+                ];
                 break;
         }
 
