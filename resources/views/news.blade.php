@@ -26,8 +26,11 @@
         <div class="row">
                 @if(!empty($read))
                 <div class="col-md-12">
-                    <h1 class="text-center">{{ $read->subject }}</h1>
-                    <div style="text-align:justify;font-size:20px;padding-top:20px;padding-bottom:20px;">@for ($i = 0; $i < 7; $i++) &nbsp; @endfor{!! $read->content !!}</div>
+                    <h1 class="text-center">{{ app()->getLocale()=='th'?$read->subject_th:$read->subject_en }}</h1>
+                    <div style="text-align:justify;font-size:20px;padding-top:20px;padding-bottom:20px;">
+                        @for ($i = 0; $i < 7; $i++) &nbsp; @endfor
+                        {!! app()->getLocale()=='th'?$read->content_th:$read->content_en !!}
+                    </div>
                     @if (!empty($read->picture))
                         @foreach (json_decode($read->picture) as $img)
                         <div class="col-sm-6 col-md-4">
@@ -46,7 +49,7 @@
                     <a href="{{ url('news/read') }}?id={{ $item->id }}">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                <h3><u>{{ $item->subject }}</u></h3>
+                                <h3><u>{{ app()->getLocale()=='th'?$item->subject_th:$item->subject_en }}</u></h3>
                             </div>
                             <div class="panel-footer">
                                 {{ $item->created_at }}

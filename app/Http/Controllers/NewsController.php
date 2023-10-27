@@ -25,8 +25,10 @@ class NewsController extends Controller
     public function store(Request $request)
     {
         $table = new News;
-        $table->subject = $request->subject;
-        $table->content = $request->content;
+        $table->subject_th = $request->subject_th;
+        $table->content_th = $request->content_th;
+        $table->subject_en = $request->subject_en;
+        $table->content_en = $request->content_en;
         if (!empty($request->file('picture'))) {
             $file = [];
             foreach ($request->file('picture') as $key => $value) {
@@ -59,14 +61,15 @@ class NewsController extends Controller
         }
         
         $table = News::where('id',$request->id)->update([
-            'subject' => $request->subject,
-            'content' => $request->content,
+            'subject_th' => $request->subject_th,
+            'content_th' => $request->content_th,
+            'subject_en' => $request->subject_en,
+            'content_en' => $request->content_en,
             'picture' => json_encode($file)
         ]);
         if ($table) {
             return back()->with('status','Success!');
         }
-        dd(false);
     }
     
 }

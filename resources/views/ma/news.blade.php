@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-8">
             <div class="card">
                 <div class="card-header">โพสต์ข่าว{{ !empty(request()->edit)?' - แก้ไขเนื้อข่าว':'' }}</div>
                 <div class="card-body" style="overflow-y: scroll;height:calc(100vh - 200px);">
@@ -15,12 +15,20 @@
                     <form action="{{ !empty(request()->edit)?url('ma/news/post-update'):url('ma/news/post') }}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-                            <label>ชื่อเรื่อง</label>
-                            <input type="text" class="form-control" placeholder="ชื่อเรื่อง" name="subject" value="{{ !empty(request()->edit)?DB::table('news')->where('id',request()->edit)->first()->subject:'' }}">
+                            <label>ชื่อเรื่อง (ภาษาไทย)</label>
+                            <input type="text" class="form-control" placeholder="ชื่อเรื่อง" name="subject_th" value="{{ !empty(request()->edit)?DB::table('news')->where('id',request()->edit)->first()->subject_th:'' }}">
                         </div>
                         <div class="form-group">
-                            <label>เนื้อหา</label>
-                            <textarea class="form-control" name="content" rows="10">{{ !empty(request()->edit)?DB::table('news')->where('id',request()->edit)->first()->content:'' }}</textarea>
+                            <label>เนื้อหา (ภาษาไทย)</label>
+                            <textarea class="form-control" name="content_th" id="content_th">{{ !empty(request()->edit)?DB::table('news')->where('id',request()->edit)->first()->content_th:'' }}</textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>ชื่อเรื่อง (ภาษาอังกฤษ)</label>
+                            <input type="text" class="form-control" placeholder="ชื่อเรื่อง" name="subject_en" value="{{ !empty(request()->edit)?DB::table('news')->where('id',request()->edit)->first()->subject_en:'' }}">
+                        </div>
+                        <div class="form-group">
+                            <label>เนื้อหา (ภาษาอังกฤษ)</label>
+                            <textarea class="form-control" name="content_en" id="content_en">{{ !empty(request()->edit)?DB::table('news')->where('id',request()->edit)->first()->content_en:'' }}</textarea>
                         </div>
                         <div class="form-group">
                             <label>ภาพ</label>
@@ -50,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
             <div class="card">
                 <div class="card-header">รายการข่าว</div>
 
@@ -58,9 +66,11 @@
                     <ul>
                         @foreach ($data as $item)
                             <li>
-                                {{ $item->created_at . ' ' . $item->subject }}
-                                <a href="{{ url('ma/news') }}?edit={{ $item->id }}">แก้ไข</a>
-                                <a href="{{ url('ma/news') }}?delete={{ $item->id }}">ลบ</a>
+                                {{ $item->created_at . ' ' . $item->subject_th }}
+                                <br>
+                                <a style="margin:5px;width:50px;" class="btn btn-info btn-sm" href="{{ url('news/read') }}?id={{ $item->id }}" target="_blank">อ่าน</a>
+                                <a style="margin:5px;width:50px;" class="btn btn-warning btn-sm" href="{{ url('ma/news') }}?edit={{ $item->id }}">แก้ไข</a>
+                                <a style="margin:5px;width:50px;" class="btn btn-danger btn-sm" href="{{ url('ma/news') }}?delete={{ $item->id }}">ลบ</a>
                             </li>
                         @endforeach
                     </ul>
@@ -76,4 +86,37 @@
             $('#list-input-file').append('<div class="col-md-4"><input type="file" name="picture[]" class="form-control" style="padding:4px;margin-top:10px;"></div><div class="col-md-8 tmp-picture"></div>');
         }
     </script>
+    <script src="{{ asset('absbmdm/plugins/tinymce/tinymce.js') }}"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea#content_th',
+            theme: "modern",
+            height: 300,
+            plugins: [
+                'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+                'searchreplace wordcount visualblocks visualchars code fullscreen',
+                'insertdatetime media nonbreaking save table contextmenu directionality',
+                'emoticons template paste textcolor colorpicker textpattern imagetools'
+            ],
+            toolbar1: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+            toolbar2: 'print preview media | forecolor backcolor emoticons',
+            image_advtab: true
+        });
+        tinymce.init({
+            selector: 'textarea#content_en',
+            theme: "modern",
+            height: 300,
+            plugins: [
+                'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+                'searchreplace wordcount visualblocks visualchars code fullscreen',
+                'insertdatetime media nonbreaking save table contextmenu directionality',
+                'emoticons template paste textcolor colorpicker textpattern imagetools'
+            ],
+            toolbar1: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+            toolbar2: 'print preview media | forecolor backcolor emoticons',
+            image_advtab: true
+        });
+        tinymce.suffix = ".min";
+        tinyMCE.baseURL = "{{ url('absbmdm/plugins/tinymce') }}";
+      </script>
 @endsection
