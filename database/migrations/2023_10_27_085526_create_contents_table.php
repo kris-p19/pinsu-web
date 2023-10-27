@@ -146,7 +146,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="' . url('/') . '/images/footers/Hi-Temp Fabrics.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Hi-Temp Fabrics.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -164,7 +164,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Hi-Temp Fiber Tape.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Hi-Temp Fiber Tape.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Removable Insulation .jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Removable Insulation .jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -211,7 +211,7 @@ class CreateContentsTable extends Migration
                                                     </ul> -->
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Flexible Joint.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Flexible Joint.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -235,7 +235,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Welding Blankets.JPG" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Welding Blankets.JPG" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -259,7 +259,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Hi-Temp Sewing Thread.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Hi-Temp Sewing Thread.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -282,7 +282,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/ACCESS.JPG" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/ACCESS.JPG" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -303,7 +303,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Fiber Blanket.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Fiber Blanket.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -322,7 +322,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Work Tent.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Work Tent.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -344,7 +344,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Hi-Temp Fabrics.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Hi-Temp Fabrics.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -362,7 +362,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Hi-Temp Fiber Tape.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Hi-Temp Fiber Tape.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -382,7 +382,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Removable Insulation .jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Removable Insulation .jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -409,7 +409,7 @@ class CreateContentsTable extends Migration
                                                     </ul> -->
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Flexible Joint.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Flexible Joint.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -433,7 +433,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Welding Blankets.JPG" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Welding Blankets.JPG" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -457,7 +457,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Hi-Temp Sewing Thread.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Hi-Temp Sewing Thread.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -480,7 +480,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/ACCESS.JPG" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/ACCESS.JPG" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -501,7 +501,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Fiber Blanket.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Fiber Blanket.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>
@@ -520,7 +520,7 @@ class CreateContentsTable extends Migration
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <img src="images/footers/Work Tent.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
+                                                    <img src="/images/footers/Work Tent.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
                                                 </div>
                                             </div>
                                         </div>

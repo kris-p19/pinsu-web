@@ -10,7 +10,9 @@ class WelcomeController extends Controller
     public function IndexOtherPage(Request $request)
     {
         return view('other',[
-            'path' => $request->path()
+            'path' => $request->path(),
+            'title'=> 'OTHER',
+            'style'=> '1'
         ]);
     }
 
@@ -67,7 +69,9 @@ class WelcomeController extends Controller
     public function GlassFabrics(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => '',
+            'title'=> 'TITLE',
+            'style'=> '1'
         ]);
     }
 
