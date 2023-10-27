@@ -17,7 +17,7 @@
 <div>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" style="margin-top:95vh;">
 
                 @if (app()->getLocale()=='th')
                 {!! DB::table('contents')->where('id',2)->first()->content_th !!}
