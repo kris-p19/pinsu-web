@@ -30,12 +30,14 @@
                     <div style="text-align:justify;font-size:20px;padding-top:20px;padding-bottom:20px;">@for ($i = 0; $i < 7; $i++) &nbsp; @endfor{!! $read->content !!}</div>
                     @if (!empty($read->picture))
                         @foreach (json_decode($read->picture) as $img)
-                        <div class="col-sm-6 col-md-6">
+                        <div class="col-sm-6 col-md-4">
                             <img src="{{ asset('images/news/' . $img) }}" class="img-responsive" style="width:100%;">
                         </div>
                         @endforeach
                     @endif
-                    <p>{{ $read->created_at }}</p>
+                    <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;">
+                        <p>{{ $read->created_at }}</p>
+                    </div>
                 </div>
                 @endif
 
@@ -45,14 +47,6 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <h3><u>{{ $item->subject }}</u></h3>
-                                {{-- <p>{!! $item->content !!}</p>
-                                @if (!empty($item->picture))
-                                    @foreach (json_decode($item->picture) as $img)
-                                        <div class="col-md-6">
-                                            <img src="{{ asset('images/news/' . $img) }}" class="img-responsive" style="width:100%;">
-                                        </div>
-                                    @endforeach
-                                @endif --}}
                             </div>
                             <div class="panel-footer">
                                 {{ $item->created_at }}
