@@ -9,7 +9,51 @@ class WelcomeController extends Controller
 {
     public function IndexOtherPage(Request $request)
     {
+        $data = [];
+        switch ($request->path()) {
+            case 'Glass-Fabrics': 
+                $data = Content::where('id',6)->first();
+                break;
+            case 'Silica-Fabrics': 
+                $data = Content::where('id',7)->first();
+                break;
+            case 'Ceramic-Fabrics': 
+                $data = Content::where('id',8)->first();
+                break;
+            case 'Silicone-Coated-Fabrics': 
+                $data = Content::where('id',9)->first();
+                break;
+            case 'PTFE-Coated-Fabrics': 
+                $data = Content::where('id',10)->first();
+                break;
+            case 'Hi-Temp-Fabric-Tape': 
+                $data = Content::where('id',11)->first();
+                break;
+            case 'Flexible-Joint-Ducts': 
+                $data = Content::where('id',12)->first();
+                break;
+            case 'Welding-Blanket-Fire-Blanket': 
+                $data = Content::where('id',13)->first();
+                break;
+            case 'Removable-Insulation': 
+                $data = Content::where('id',14)->first();
+                break;
+            case 'Insulation-Accessories': 
+                $data = Content::where('id',15)->first();
+                break;
+            case 'Hi-Temp-Sewing-Thread': 
+                $data = Content::where('id',16)->first();
+                break;
+            case 'Temporary-Work-Shop': 
+                $data = Content::where('id',17)->first();
+                break;
+            case 'Fiber-Blanket': 
+                $data = Content::where('id',18)->first();
+                break;
+        }
+
         return view('other',[
+            'data' => $data,
             'path' => $request->path(),
             'title'=> 'OTHER',
             'style'=> '1'
@@ -22,6 +66,7 @@ class WelcomeController extends Controller
         ]);
     }
 
+    // 1 - 5
     public function home(Request $request) {
         return view('ma.content-edit',[
             'data' => Content::where('id',1)->first(),
@@ -66,11 +111,12 @@ class WelcomeController extends Controller
         ]);
     }
 
+    // 6 - 18
     public function GlassFabrics(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => '',
-            'title'=> 'TITLE',
+            'data' => Content::where('id',6)->first(),
+            'title'=> $request->path(),
             'style'=> '1'
         ]);
     }
@@ -78,84 +124,108 @@ class WelcomeController extends Controller
     public function SilicaFabrics(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',7)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function CeramicFabrics(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',8)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function SiliconeCoatedFabrics(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',9)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function PTFECoatedFabrics(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',10)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function HiTempFabricTape(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',11)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function FlexibleJointDucts(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',12)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function WeldingBlanketFireBlanket(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',13)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function RemovableInsulation(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',14)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function InsulationAccessories(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',15)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function HiTempSewingThread(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',16)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function TemporaryWorkShop(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',17)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
     public function FiberBlanket(Request $request)
     {
         return view('ma.content-edit',[
-            'data' => ''
+            'data' => Content::where('id',18)->first(),
+            'title'=> $request->path(),
+            'style'=> '1'
         ]);
     }
 
@@ -168,10 +238,5 @@ class WelcomeController extends Controller
         if ($table) {
             return back()->with('status','Success! ' . date('Y-m-d H:i:s'));
         }
-    }
-
-    public function post2(Request $request)
-    {
-        dd($request->all());
     }
 }

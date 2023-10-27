@@ -77,7 +77,6 @@ Route::group(['prefix'=>'ma', 'middleware'=>['auth']],function(){
     Route::get('content/Fiber-Blanket','WelcomeController@FiberBlanket');
 
     Route::post('content/post-style-1', 'WelcomeController@post1');
-    Route::post('content/post-style-2', 'WelcomeController@post2');
 
 
     // MA NEWS

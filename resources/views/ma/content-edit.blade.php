@@ -8,7 +8,6 @@
                 <div class="card-header">
                     <a href="{{ url('ma/content') }}" class="btn btn-warning btn-sm">ย้อนกลับ</a>
                     แก้ไขเนื้อหาเว็บไซต์ - <b><u>{{ $title }}</u></b>
-                    {{ url('/') }}
                 </div>
 
                 <div class="card-body">

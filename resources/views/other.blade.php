@@ -19,7 +19,11 @@
         <div class="row">
             <div class="col-md-12" style="margin-top:95vh;">
 
-                Other
+                @if (app()->getLocale()=='th')
+                {!! $data->content_th !!}
+                @else
+                {!! $data->content_en !!}
+                @endif
 
             </div>
         </div>
