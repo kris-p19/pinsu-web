@@ -2067,13 +2067,463 @@ class CreateContentsTable extends Migration
                     <img src="/images/slides/page-12/Pic - 21.jpg" class="img-responsive" style="width:100%;">
                 </div>
             </div>',
-                'content_en' => '',
+                'content_en' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u>
+                            <b>
+                                Pipe Expansion Joint / Air Duct Expansion Joint / Flexible Duct Connector Flexible Hose / Flexible Joint
+                            </b>
+                        </u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>ข้อต่อท่อลมร้อน (ท่อลมเย็น) แบบยืดหยุ่นได้</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 1.png" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ข้อต่อท่อลมร้อน(และเย็น) แบบยืดหยุ่นได้
+                        (Expansion Joint / Flexible Joint / Flexible Duct Connector)
+                        ช่วยในเรื่องของการรับแรงสั่นสะเทือนและการขยายตัวที่เกิดขึ้นกับระบบท่อที่เชื่อมต่อเข้ากับส่วนต่างๆของเครื่องจักร อาทิเช่น ท่อลม 
+                        Blower (Blower Expansion Joint) ท่อไอเสียของเทอร์ไบน์ (Turbine Exhaust) เป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 2.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 4.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ท่อลม (ท่อลมร้อน / ท่อลมเย็น) 
+                        หากมีการสั่นสะเทือนและขยับตัวมากๆจากการทำงานของเครื่องจักร 
+                        แรงสั่นสะเทือนนั้นสามารถทำให้ท่อที่ได้ยึดติดตั้งไว้อย่างแข็งแรงด้วยอุปกรณ์ซัพพอร์ตแบบต่าง ๆ 
+                        เกิดการขยับตัวและสร้างความเสียหายที่รุนแรงได้ ฉะนั้นตรงจุดของท่อลมที่มีการสั่นสะเทือน 
+                        ตัวต่อท่อเพื่อรับแรงสั่นสะเทือนและการขยับตัว (Expansion Joint) ของท่อต่าง ๆ 
+                        จึงเป็นตัวเลือกหนึ่งที่สำคัญในการที่จะแก้ไขปัญหาและป้องกันความเสียหายที่อาจเกิดขึ้นได้จากการสั่นสะเทือนของท่อลมและท่อต่าง ๆ ในโรงงาน
+                    </p>
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; บริษัท พินซู จำกัด ผลิตและจำหน่าย 
+                        Fabric Expansion Joint (ข้อต่อท่อลมร้อน / ข้อต่อท่อลมเย็น) 
+                        Flexible Hose (ท่อยืดหด/ท่อย่น) 
+                        ตามขนาดและรูปแบบที่ลูกค้าต้องการสำหรับอุณหภูมิที่เหมาะสม
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-6">
+                    <img src="/images/slides/page-12/Pic - 5.png" class="img-responsive" style="width:100%;">
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/slides/page-12/Pic - 4.png" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 6.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 8.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 9.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 10.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 11.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 12.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 13.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 14.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 15.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 16.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 17.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 18.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 19.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 20.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 21.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
-                'content_en' => '',
+                'content_th' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u>
+                            <b>
+                                Welding Blanket (ผ้ากันสะเก็ดไฟ)
+                            </b>
+                        </u>
+                    </h3>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-8">
+                    <img src="/images/slides/page-13/Pic-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+                <div class="col-md-4">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ผ้ากันสะเก็ดไฟ (Welding Blanket) 
+                        เป็นวัสดุที่ใช้สำหรับป้องกันลูกสะเก็ดไฟจากงานตัดโลหะ งานเชื่อมโลหะ 
+                        และงานเจียร์โลหะไม่ให้กระเด็นไปในบริเวณที่มีวัสดุหรืออุปกรณ์ต่างๆที่ติดไฟได้ง่ายจนเกิดประกายไฟและสร้างความเสียหายได้ 
+                        ใช้คลุมเครื่องจักรและอุปกรณ์ต่างๆที่ยากต่อการโยกย้ายเมื่อจำเป็นต้องทำกิจกรรมเกี่ยวกับการตัด/เชื่อม/เจียร์โลหะในบริเวณนั้น ๆ 
+                        ซึ่งมีพื้นที่การทำงานจำกัดเพื่อไม่ให้เกิดความเสียหายจากสะเก็ดไฟที่จะตกสัมผัสได้
+                        นอกเหนือจากนี้แล้วผ้ากันสะเก็ดไฟยังสามารถนำไปใช้เป็นผ้ากันไฟ <b>(Fire Proof Blanket)</b> 
+                        หรือผ้าห่มดับไฟ <b>(Fire Blanket)</b> สำหรับมีไว้ประจำครัวเรือน ห้างร้าน ห้างสรรพสินค้า อาคาร และ สำนักงานต่าง ๆ 
+                        เพื่อป้องกันและแก้ไขปัญหาอัคคีภัยเล็ก ๆ น้อย ๆ เบื้องต้นที่เกิดขึ้นได้อีกด้วย
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ผ้ากันสะเก็ดไฟ (Welding Blanket) 
+                        ถือได้ว่าเป็นอุปกรณ์ที่จำเป็นอย่างยิ่งสำหรับงานตัดโลหะ/งานเชื่อมโลหะ/งานเจียร์โลหะ 
+                        โดยเฉพาะการทำงานในบริเวณที่มีวัสดุและอุปกรณ์ต่างๆที่ติดไฟได้ง่ายวางอยู่
+                        <u>
+                            สมาคมส่งเสริมความปลอดภัยและอนามัยในการทำงาน (ประเทศไทย) ในพระราชูปถัมภ์ฯ 
+                            (Safety And Health At Work Promotion Association Thailand) 
+                            Under Patronage (SHAWPAT) ได้กำหนดมาตรการความปลอดภัยในการทำงานเกี่ยวกับการตัดเชื่อมโลหะไว้ว่า 
+                            “ก่อนที่จะทำการเชื่อมตัดด้วยไฟฟ้าหรือแก๊สทุกครั้ง ผู้ปฏิบัติงานต้องทำการตรวจสอบบริเวณโดยรอบ 
+                            จะต้องไม่มีวัสดุที่ติดไฟได้อยู่ในรัศมีที่สะเก็ดไฟจากการปฏิบัติงานจะกระเด็นไปถึง 
+                            ทั้งนี้ให้รวมถึงการเชื่อมในที่สูงที่สะเก็ดไฟจะตกลงไปได้โดยให้ทำการเคลื่อนย้ายวัสดุที่ติดไฟดังกล่าวออกไป 
+                            หรือจัดหาวัสดุที่ไม่ติดไฟ (Fire Proof Blanket) ปิดกั้น จะต้องเคลื่อนย้ายสารที่สามารถติดไฟได้ให้พ้นบริเวณที่ประกายไฟจากการเชื่อมสามารถกระเด็นไปถึง 
+                            ควรจัดให้มีอุปกรณ์วัสดุที่ไม่ติดไฟปิดกั้นบริเวณพื้นที่ที่ปฏิบัติงานเพื่อป้องกันประกายไฟหรือสะเก็ดไฟกระเด็นไปตกบริเวณสารไวไฟ/วัสดุติดไฟหรือกระเด็นถูกผู้ที่อยู่ใกล้เคียง”
+                        </u>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <img src="/images/slides/page-13/Pic-2.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; บริษัท พินซู จำกัด 
+                        ผลิตและจำหน่ายผ้ากันสะเก็ดไฟหลายชนิดตามความเหมาะสมและความต้องการของลูกค้า
+                        ไม่ว่าจะนำไปใช้ในงานเบา(เป็นม่านกันสะเก็ดไฟ) หรือใช้ในงานหนัก
+                        (เป็นผ้ารองลูกสะเก็ดไฟงานเชื่อม งานตัด งานเจียร์)
+                        <br>
+                        <br>
+                        <u style="color:red;">
+                            ท่านลูกค้าที่มีความสนใจและต้องการใช้ผ้ากันสะเก็ดไฟแบบเร่งด่วน ทางเรายินดีพร้อมให้บริการ
+                        </u>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <img src="/images/slides/page-13/Pic-3.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-4.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-5.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-6.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-7.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-8.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;"><u><b>ม่านกันไฟ / ม่านกันความร้อน</b></u></p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-9.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;"><u><b>ม่านกันสะเก็ดไฟชนิดโปร่งแสง (ม่านกรองแสงงานเชื่อม)</b></u></p>
+                    <p style="font-size:25px;">&nbsp; &nbsp; &nbsp; &nbsp; นอกเหนือจากผ้ากันสะเก็ดไฟและผ้ากันไฟแล้ว บริษัท พินซู จำกัด ยังจำหน่ายม่านกรองแสงงานเชื่อมหรือม่านกันสะเก็ดไฟชนิดโปร่งแสงอีกด้วย ม่านกรองแสงงานเชื่อมโดยปกติแล้วจะเป็นที่นิยมสำหรับช่างเชื่อมที่จำเป็นจะต้องเชื่อมงานในบริเวณที่มีคนอื่นๆปฏิบัติงานอยู่ข้างๆ เพราะม่านกรองแสงงานเชื่อมจะช่วยลดปริมาณของแสง UV และช่วยลดอันตรายที่อาจเกิดขึ้นกับสายตาของผู้อื่นที่ต้องสัมผัสกับแสงจากการเชื่อมงานของผู้เชื่อม</p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-10.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        ม่านกรองแสงงานเชื่อมผลิตจากวัสดุที่ไม่ติดไฟและไม่ลามไฟ ด้วยเหตุนี้ม่านกรองแสงงานเชื่อมจึงไม่เพียงแค่ป้องกันสายตาของผู้ที่อยู่ใกล้ๆบริเวณที่มีการเชื่อมงานเท่านั้น แต่ยังช่วยป้องกันลูกสะเก็ดไฟงานเชื่อมไม่ให้กระเด็นไปโดนผู้อื่นที่อยู่ข้างๆหรือบริเวณใกล้ๆที่มีวัสดุไวไฟอยู่อีกด้วย หลายคนอาจจะคิดว่าเพียงแค่เราไม่ต้องมองแสงจากการเชื่อมของช่างที่เชื่อมอยู่ใกล้ๆก็ปลอดภัยพอแล้ว ความจริงก็คือถ้าดวงตาเราได้สัมผัสกับแสง UV จากงานเชื่อมเพียงชั่วพริบตาเดียว ดวงตาเราก็สามารถที่จะได้รับอันตรายได้
+                    </p>
+                    <p style="font-size:25px;">
+                        ม่านกรองแสงงานเชื่อมหรือม่านกันสะเก็ดไฟชนิดโปร่งแสง (See-Through Welding Screen)ยังมีประโยชน์ช่วยให้ผู้เชื่อมงานได้มองเห็นความเคลื่อนไหวด้านนอกและในขณะเดียวกันก็ช่วยให้ผู้อื่นมองเห็นว่ามีการเชื่อมงานอยู่ในบริเวณนั้นด้วย
+                    </p>
+                    <p style="font-size:25px;">
+                        บริษัท พินซู จำกัด จำหน่ายม่านกรองแสงงานเชื่อม / ม่านกันสะเก็ดไฟงานเชื่อมชนิดโปร่งแสง (สีส้ม / สีเขียวเข้ม / สีเหลือง) ตามขนาดที่ลูกค้าต้องการ    
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-11.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
+                'content_en' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u>
+                            <b>
+                                Welding Blanket (ผ้ากันสะเก็ดไฟ)
+                            </b>
+                        </u>
+                    </h3>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-8">
+                    <img src="/images/slides/page-13/Pic-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+                <div class="col-md-4">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ผ้ากันสะเก็ดไฟ (Welding Blanket) 
+                        เป็นวัสดุที่ใช้สำหรับป้องกันลูกสะเก็ดไฟจากงานตัดโลหะ งานเชื่อมโลหะ 
+                        และงานเจียร์โลหะไม่ให้กระเด็นไปในบริเวณที่มีวัสดุหรืออุปกรณ์ต่างๆที่ติดไฟได้ง่ายจนเกิดประกายไฟและสร้างความเสียหายได้ 
+                        ใช้คลุมเครื่องจักรและอุปกรณ์ต่างๆที่ยากต่อการโยกย้ายเมื่อจำเป็นต้องทำกิจกรรมเกี่ยวกับการตัด/เชื่อม/เจียร์โลหะในบริเวณนั้น ๆ 
+                        ซึ่งมีพื้นที่การทำงานจำกัดเพื่อไม่ให้เกิดความเสียหายจากสะเก็ดไฟที่จะตกสัมผัสได้
+                        นอกเหนือจากนี้แล้วผ้ากันสะเก็ดไฟยังสามารถนำไปใช้เป็นผ้ากันไฟ <b>(Fire Proof Blanket)</b> 
+                        หรือผ้าห่มดับไฟ <b>(Fire Blanket)</b> สำหรับมีไว้ประจำครัวเรือน ห้างร้าน ห้างสรรพสินค้า อาคาร และ สำนักงานต่าง ๆ 
+                        เพื่อป้องกันและแก้ไขปัญหาอัคคีภัยเล็ก ๆ น้อย ๆ เบื้องต้นที่เกิดขึ้นได้อีกด้วย
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ผ้ากันสะเก็ดไฟ (Welding Blanket) 
+                        ถือได้ว่าเป็นอุปกรณ์ที่จำเป็นอย่างยิ่งสำหรับงานตัดโลหะ/งานเชื่อมโลหะ/งานเจียร์โลหะ 
+                        โดยเฉพาะการทำงานในบริเวณที่มีวัสดุและอุปกรณ์ต่างๆที่ติดไฟได้ง่ายวางอยู่
+                        <u>
+                            สมาคมส่งเสริมความปลอดภัยและอนามัยในการทำงาน (ประเทศไทย) ในพระราชูปถัมภ์ฯ 
+                            (Safety And Health At Work Promotion Association Thailand) 
+                            Under Patronage (SHAWPAT) ได้กำหนดมาตรการความปลอดภัยในการทำงานเกี่ยวกับการตัดเชื่อมโลหะไว้ว่า 
+                            “ก่อนที่จะทำการเชื่อมตัดด้วยไฟฟ้าหรือแก๊สทุกครั้ง ผู้ปฏิบัติงานต้องทำการตรวจสอบบริเวณโดยรอบ 
+                            จะต้องไม่มีวัสดุที่ติดไฟได้อยู่ในรัศมีที่สะเก็ดไฟจากการปฏิบัติงานจะกระเด็นไปถึง 
+                            ทั้งนี้ให้รวมถึงการเชื่อมในที่สูงที่สะเก็ดไฟจะตกลงไปได้โดยให้ทำการเคลื่อนย้ายวัสดุที่ติดไฟดังกล่าวออกไป 
+                            หรือจัดหาวัสดุที่ไม่ติดไฟ (Fire Proof Blanket) ปิดกั้น จะต้องเคลื่อนย้ายสารที่สามารถติดไฟได้ให้พ้นบริเวณที่ประกายไฟจากการเชื่อมสามารถกระเด็นไปถึง 
+                            ควรจัดให้มีอุปกรณ์วัสดุที่ไม่ติดไฟปิดกั้นบริเวณพื้นที่ที่ปฏิบัติงานเพื่อป้องกันประกายไฟหรือสะเก็ดไฟกระเด็นไปตกบริเวณสารไวไฟ/วัสดุติดไฟหรือกระเด็นถูกผู้ที่อยู่ใกล้เคียง”
+                        </u>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <img src="/images/slides/page-13/Pic-2.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; บริษัท พินซู จำกัด 
+                        ผลิตและจำหน่ายผ้ากันสะเก็ดไฟหลายชนิดตามความเหมาะสมและความต้องการของลูกค้า
+                        ไม่ว่าจะนำไปใช้ในงานเบา(เป็นม่านกันสะเก็ดไฟ) หรือใช้ในงานหนัก
+                        (เป็นผ้ารองลูกสะเก็ดไฟงานเชื่อม งานตัด งานเจียร์)
+                        <br>
+                        <br>
+                        <u style="color:red;">
+                            ท่านลูกค้าที่มีความสนใจและต้องการใช้ผ้ากันสะเก็ดไฟแบบเร่งด่วน ทางเรายินดีพร้อมให้บริการ
+                        </u>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <img src="/images/slides/page-13/Pic-3.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-4.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-5.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-6.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-7.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-8.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;"><u><b>ม่านกันไฟ / ม่านกันความร้อน</b></u></p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-9.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;"><u><b>ม่านกันสะเก็ดไฟชนิดโปร่งแสง (ม่านกรองแสงงานเชื่อม)</b></u></p>
+                    <p style="font-size:25px;">&nbsp; &nbsp; &nbsp; &nbsp; นอกเหนือจากผ้ากันสะเก็ดไฟและผ้ากันไฟแล้ว บริษัท พินซู จำกัด ยังจำหน่ายม่านกรองแสงงานเชื่อมหรือม่านกันสะเก็ดไฟชนิดโปร่งแสงอีกด้วย ม่านกรองแสงงานเชื่อมโดยปกติแล้วจะเป็นที่นิยมสำหรับช่างเชื่อมที่จำเป็นจะต้องเชื่อมงานในบริเวณที่มีคนอื่นๆปฏิบัติงานอยู่ข้างๆ เพราะม่านกรองแสงงานเชื่อมจะช่วยลดปริมาณของแสง UV และช่วยลดอันตรายที่อาจเกิดขึ้นกับสายตาของผู้อื่นที่ต้องสัมผัสกับแสงจากการเชื่อมงานของผู้เชื่อม</p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-10.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        ม่านกรองแสงงานเชื่อมผลิตจากวัสดุที่ไม่ติดไฟและไม่ลามไฟ ด้วยเหตุนี้ม่านกรองแสงงานเชื่อมจึงไม่เพียงแค่ป้องกันสายตาของผู้ที่อยู่ใกล้ๆบริเวณที่มีการเชื่อมงานเท่านั้น แต่ยังช่วยป้องกันลูกสะเก็ดไฟงานเชื่อมไม่ให้กระเด็นไปโดนผู้อื่นที่อยู่ข้างๆหรือบริเวณใกล้ๆที่มีวัสดุไวไฟอยู่อีกด้วย หลายคนอาจจะคิดว่าเพียงแค่เราไม่ต้องมองแสงจากการเชื่อมของช่างที่เชื่อมอยู่ใกล้ๆก็ปลอดภัยพอแล้ว ความจริงก็คือถ้าดวงตาเราได้สัมผัสกับแสง UV จากงานเชื่อมเพียงชั่วพริบตาเดียว ดวงตาเราก็สามารถที่จะได้รับอันตรายได้
+                    </p>
+                    <p style="font-size:25px;">
+                        ม่านกรองแสงงานเชื่อมหรือม่านกันสะเก็ดไฟชนิดโปร่งแสง (See-Through Welding Screen)ยังมีประโยชน์ช่วยให้ผู้เชื่อมงานได้มองเห็นความเคลื่อนไหวด้านนอกและในขณะเดียวกันก็ช่วยให้ผู้อื่นมองเห็นว่ามีการเชื่อมงานอยู่ในบริเวณนั้นด้วย
+                    </p>
+                    <p style="font-size:25px;">
+                        บริษัท พินซู จำกัด จำหน่ายม่านกรองแสงงานเชื่อม / ม่านกันสะเก็ดไฟงานเชื่อมชนิดโปร่งแสง (สีส้ม / สีเขียวเข้ม / สีเหลือง) ตามขนาดที่ลูกค้าต้องการ    
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-13/Pic-11.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],

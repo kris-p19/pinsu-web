@@ -53,6 +53,9 @@ class WelcomeController extends Controller
                 break;
             case 'Welding-Blanket-Fire-Blanket': 
                 $data = Content::where('id',13)->first();
+                $slide = [
+                    asset('images/slides/page-13/Header.jpg')
+                ];
                 break;
             case 'Removable-Insulation': 
                 $data = Content::where('id',14)->first();
