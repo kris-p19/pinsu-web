@@ -65,12 +65,12 @@
                 <div class="card-body" style="overflow-y: scroll;height:calc(100vh - 200px);">
                     <ul>
                         @foreach ($data as $item)
-                            <li>
+                            <li style="border-bottom: 1px solid #ccc;">
                                 {{ $item->created_at . ' ' . $item->subject_th }}
                                 <br>
-                                <a style="margin:5px;width:50px;" class="btn btn-info btn-sm" href="{{ url('news/read') }}?id={{ $item->id }}" target="_blank">อ่าน</a>
-                                <a style="margin:5px;width:50px;" class="btn btn-warning btn-sm" href="{{ url('ma/news') }}?edit={{ $item->id }}">แก้ไข</a>
-                                <a style="margin:5px;width:50px;" class="btn btn-danger btn-sm" href="{{ url('ma/news') }}?delete={{ $item->id }}">ลบ</a>
+                                <a style="margin:5px;width:50px;border-radius:20px;" class="btn btn-success btn-sm" href="{{ url('news/read') }}?id={{ $item->id }}" target="_blank">อ่าน</a>
+                                <a style="margin:5px;width:50px;border-radius:20px;" class="btn btn-warning btn-sm" href="{{ url('ma/news') }}?edit={{ $item->id }}">แก้ไข</a>
+                                <a style="margin:5px;width:50px;border-radius:20px;" class="btn btn-danger btn-sm" href="{{ url('ma/news') }}?delete={{ $item->id }}">ลบ</a>
                             </li>
                         @endforeach
                     </ul>
