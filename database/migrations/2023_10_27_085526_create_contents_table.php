@@ -2528,7 +2528,476 @@ class CreateContentsTable extends Migration
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
+                'content_th' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u>
+                            <b>
+                                Removable Insulation Jackets
+                            </b>
+                        </u>
+                    </h3>
+                    <h4 class="text-left" style="font-size: 25px;"><u>ฉนวนทนความร้อนแบบถอดได้ (ฉนวนถอดได้)</u></h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; เมื่อพูดถึงการบำรุงรักษาเครื่องจักรและอุปกรณ์ต่าง ๆ
+                        หลาย ๆ โรงงานมีความจำเป็นที่จะต้องตรวจเช็คบ่อยครั้งในแต่ละรอบปีเพื่อหาจุดชำรุดของชิ้นส่วนและอุปกรณ์
+                        หากพบเจอก็สามารถถอดเปลี่ยนได้ทันท่วงทีเพื่อป้องกันไม่ให้เกิดความเสียหายต่อเครื่องจักรและส่งผลกระทบต่อกระบวนการผลิต
+                        สำหรับเครื่องจักรและอุปกรณ์ใดที่จำเป็นจะต้องหุ้มฉนวนเอาไว้เพื่อช่วยในเรื่องของการรักษาพลังงานและป้องกันความร้อน
+                        ฉนวนที่หุ้มไปแล้วสามารถรื้อถอดและใส่เข้าไปใหม่ได้หรือที่เรียกกันว่า 
+                        “ฉนวนแบบถอดได้ (Removable Insulation Jacket/Cover)” 
+                        จึงเป็นสิ่งที่โรงงานต่างๆนึกถึงและให้ความสำคัญเป็นอันดับแรก
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <div class="panel-body" style="background-color: #f4f4f4;min-height:300px;padding:30px;">
+                        <p style="font-size:25px;color:green;background-color:#fff2cc;padding:20px;float:right;width:350px;">Keep creating the great things, just leave <u style="color:red;">the small Heat</u> problems to us.</p>
+                        <p style="font-size:20px;text-align:justify;float:left;display:contents;">
+                            &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  
+                            บริษัท พินซู จำกัด นอกเหนือจากจำหน่ายผ้าทนความร้อน ผ้ากันความร้อน ผ้ากันสะเก็ดไฟแล้ว
+                            ยังให้บริการตัดเย็บและจำหน่ายฉนวนทนความร้อนแบบถอดได้ / ฉนวนกันความร้อนแบบถอดได้ (ฉนวนถอดได้) 
+                            Removable Insulation Jacket อาทิเช่น ฉนวนหุ้มวาล์ว เสื้อหุ้มวาล์ว ( valve insulation jacket) 
+                            ฉนวนหม้อต้มอุตสาหกรรม (Industrial Boiler)
+                            ฉนวนเตาเผาอุตสาหกรรม ฉนวนสำหรับเตาหลอมอุตสาหกรรม 
+                            ฉนวนเตาอบอุตสาหกรรม (Industrial Furnace / Industrial Oven) 
+                            ฉนวนหุ้มฮีตเตอร์ / ตัวกำเนิดความร้อน (Heater Insulation)
+                            ฉนวนเครื่องฉีดพลาสติก (Plastic Extruder Machine)
+                            ฉนวนเครื่องปั่นไฟ/ฉนวนเครื่องกำเนิดไฟฟ้า (Power Generator/ Turbine)
+                            ฉนวน Turbine เป็นต้น
+                        </p>     
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:20px;">ตัวอย่างงานฉนวนที่เราได้ติดตั้งและส่งมอบให้กับลูกค้า</p>
+                    <p style="font-size:25px;"><u><b>ฉนวนหุ้มเครื่องฉีดพลาสติก (Insulation Jacket for Plastic Extruder)</b></u></p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-2.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-3.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-3-001.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;"><u><b>Pre-Insulated Heating Pads (Heater - ฮีตเตอร์พร้อมฉนวนในตัว)</b></u></p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-3-002.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-3-003.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;"><u><b>ฉนวนหุ้มเครื่องฉีดพลาสติก (Insulation Jacket for Plastic Extruder)</b></u></p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-4-001.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-4-002.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-4-003.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-4-004.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-4-005.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-024-06.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-024-04.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-024-05.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <u>
+                            <b>
+                                ฉนวนแบบถอดได้สำหรับหุ้มวาล์วและหุ้มท่อ / เสื้อหุ้มวาล์วแบบถอดได้ (Removable Insulation Covers or Jackets for valves and pipes) 
+                            </b>
+                        </u>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-5.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-5-01.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-001.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-002.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-003.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-004.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-005.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-006.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-007.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-008.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-009.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-010.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-0010.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <u>
+                            <b>
+                                ฉนวนหุ้มเตาอบอุตสาหกรรม (Removable Insulation for Industrial Ovens)
+                            </b>
+                        </u>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-011.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-012.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-012-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-013.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-014.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-015.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-016.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-017.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-018.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-019.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-020.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-021.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-022.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-023.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-024.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <u>
+                            <b>
+                                ฉนวนหุ้มเทอร์ไบน์ (Turbine s Exhaust)
+                            </b>
+                        </u>
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-024-01.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-024-02.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-024-03.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <u>
+                            <b>
+                                แผ่นฉนวนสำเร็จสำหรับหุ้มเทอร์ไบน์
+                            </b>
+                        </u>
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-025.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <u>
+                            <b>
+                                ฉนวนแบบถอดได้สำหรับห้อง Clean Room / โรงงานผลิตอาหาร
+                            </b>
+                        </u>
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-026.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-027.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-028.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-6-029.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <u>
+                            <b>
+                                ฉนวนหุ้มบอยเลอร์ / หุ้มฮีตเตอร์ (ท่อ Boiler / Heater)
+                            </b>
+                        </u>
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-7-001.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-7-002.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-7-003.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-7-004.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:20px;">
+                        &nbsp;  &nbsp;  &nbsp;  &nbsp; นอกเหนือจากฉนวนแบบถอดได้ (Removable Insulation Covers / Jackets) 
+                        แล้ว ทางบริษัท พินซู จำกัด ยังให้บริการประกอบและติดตั้งฉนวนที่ไม่สามารถถอดเปลี่ยนได้ อาทิเช่น 
+                        ฉนวนที่ผิดผิวด้วยอลูมิเนียม (Aluminium Cladding) หรือ สแตนเลส อีกด้วย
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-08-001.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-08-002.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-08-003.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-08-004.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <u>
+                            <b>
+                                ฉนวนอลูมิเนียมหุ้มท่อ Exhaust เครื่อง Generator
+                            </b>
+                        </u>
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-15/Pic-08-006.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'content_en' => '',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
