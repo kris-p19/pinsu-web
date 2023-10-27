@@ -100,9 +100,6 @@
                                             <i class="fa-brands fa-instagram"></i>
                                         </a>
                                         <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
-                                            <i class="fa-solid fa-tty"></i>
-                                        </a>
-                                        <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
                                             <i class="fa-brands fa-line"></i>
                                         </a>
                                     </div>

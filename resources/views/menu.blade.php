@@ -2,50 +2,33 @@
     <div class="row" style="padding:2%;">
         <div class="col-md-12 text-right">
             <button style="background:transparent;border:none;font-size:30px;" type="button" onclick="$('#loadpage').css({ height: '0vh'});$('#loadpage').html('');">
-                {{-- <span class="glyphicon glyphicon-remove"></span> --}}
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.company') }}</a>
-            <ul>
-                <li style="font-size:20px;">sub menu 1</li>
-                <li style="font-size:20px;">sub menu 1</li>
-                <li style="font-size:20px;">sub menu 1</li>
-            </ul>
+            <a href="{{ url('company') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.company') }}</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.product') }}</a>
-            <ul>
-                <li style="font-size:20px;">sub menu 1</li>
-                <li style="font-size:20px;">sub menu 1</li>
-                <li style="font-size:20px;">sub menu 1</li>
-            </ul>
+            <a href="{{ url('product') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.product') }}</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.contact') }}</a>
-            <ul>
-                <li style="font-size:20px;">sub menu 1</li>
-                <li style="font-size:20px;">sub menu 1</li>
-                <li style="font-size:20px;">sub menu 1</li>
-            </ul>
+            <a href="{{ url('contact') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.contact') }}</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.news') }}</a>
-            <ul>
-                <li style="font-size:20px;">sub menu 1</li>
-                <li style="font-size:20px;">sub menu 1</li>
-                <li style="font-size:20px;">sub menu 1</li>
-            </ul>
+            <a href="{{ url('news') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.news') }}</a>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <a href="" style="font-size:30px;font-weight:bold;">{{ __('txt.menu.admin') }}</a>
+            <a href="{{ url('ma/home') }}" style="font-size:30px;font-weight:bold;color:white !important;">{{ __('txt.menu.admin') }}</a>
             <ul>
                 @guest
                 <li style="font-size:20px;"><a href="{{ url('login') }}">{{ __('txt.menu.login') }}</a></li>
                 <li style="font-size:20px;"><a href="{{ url('register') }}">{{ __('txt.menu.register') }}</a></li>
                 @else
-                <li style="font-size:20px;">{{ __('txt.menu.logout') }}</li>
+                <li style="font-size:20px;"><a href="{{ url('logout') }}" onclick="event.preventDefault();
+                    document.getElementById('logout-form').submit();">{{ __('txt.menu.logout') }}</a></li>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
                 @endguest
             </ul>
         </div>
@@ -61,9 +44,6 @@
             </a>
             <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
                 <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
-                <i class="fa-solid fa-tty"></i>
             </a>
             <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
                 <i class="fa-brands fa-line"></i>
