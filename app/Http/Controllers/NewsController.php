@@ -45,8 +45,8 @@ class NewsController extends Controller
 
     public function update(Request $request)
     {
+        $file = !empty(News::where('id',$request->id)->first()->picture)?json_decode(News::where('id',$request->id)->first()->picture):[];
         if (!empty($request->file('picture'))) {
-            $file = !empty(News::where('id',$request->id)->first()->picture)?json_decode(News::where('id',$request->id)->first()->picture):[];
             foreach ($request->file('picture') as $key => $value) {
                 $image = $value;
                 $imageName = $key . date('Ymd') . time(). mt_rand(10000,99999) . '.' . $image->extension();
@@ -57,13 +57,16 @@ class NewsController extends Controller
                 'picture' => json_encode($file)
             ]);
         }
+        
         $table = News::where('id',$request->id)->update([
             'subject' => $request->subject,
-            'content' => $request->content
+            'content' => $request->content,
+            'picture' => json_encode($file)
         ]);
         if ($table) {
             return back()->with('status','Success!');
         }
+        dd(false);
     }
     
 }

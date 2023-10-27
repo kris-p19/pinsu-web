@@ -45,8 +45,21 @@ Route::group(['prefix'=>'ma', 'middleware'=>['auth']],function(){
 
     Route::get('news', function(){
         
-        if (!empty(request()->delete)) {
+        if (!empty(request()->delete) && empty(request()->edit) && empty(request()->name)) {
             DB::table('news')->where('id',request()->delete)->delete();
+        } else if(!empty(request()->delete) && !empty(request()->edit && !empty(request()->name))) {
+            $d = DB::table('news')->where('id',request()->delete)->first();
+            if (!empty($d->picture)) {
+                $a = [];
+                foreach (json_decode($d->picture) as $key => $value) {
+                    if ($value!=request()->name) {
+                        array_push($a,$value);
+                    }
+                }
+                DB::table('news')->where('id',request()->delete)->update([
+                    'picture' => json_encode($a)
+                ]);
+            }
         }
 
         return view('ma.news',[
