@@ -65,7 +65,7 @@
                 <div class="card-body" style="overflow-y: scroll;height:calc(100vh - 200px);">
                     <ul>
                         @foreach ($data as $item)
-                            <li style="border-bottom: 1px solid #ccc;">
+                            <li style="border-bottom: 1px solid #ccc;margin-bottom:5px;">
                                 {{ $item->created_at . ' ' . $item->subject_th }}
                                 <br>
                                 <a style="margin:5px;width:50px;border-radius:20px;" class="btn btn-success btn-sm" href="{{ url('news/read') }}?id={{ $item->id }}" target="_blank">อ่าน</a>
