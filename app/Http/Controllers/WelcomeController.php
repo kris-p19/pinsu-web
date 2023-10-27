@@ -80,7 +80,10 @@ class WelcomeController extends Controller
                 ];
                 break;
             case 'Temporary-Work-Shop': 
-                $data = Content::where('id',17)->first();
+                $data = Content::where('id',17)->first(); // 18
+                $slide = [
+                    asset('images/slides/page-18/Header.JPG')
+                ];
                 break;
             case 'Fiber-Blanket': 
                 $data = Content::where('id',18)->first();
