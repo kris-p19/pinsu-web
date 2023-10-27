@@ -1906,7 +1906,167 @@ class CreateContentsTable extends Migration
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
+                'content_th' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u>
+                            <b>
+                                Pipe Expansion Joint / Air Duct Expansion Joint / Flexible Duct Connector Flexible Hose / Flexible Joint
+                            </b>
+                        </u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>ข้อต่อท่อลมร้อน (ท่อลมเย็น) แบบยืดหยุ่นได้</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 1.png" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ข้อต่อท่อลมร้อน(และเย็น) แบบยืดหยุ่นได้
+                        (Expansion Joint / Flexible Joint / Flexible Duct Connector)
+                        ช่วยในเรื่องของการรับแรงสั่นสะเทือนและการขยายตัวที่เกิดขึ้นกับระบบท่อที่เชื่อมต่อเข้ากับส่วนต่างๆของเครื่องจักร อาทิเช่น ท่อลม 
+                        Blower (Blower Expansion Joint) ท่อไอเสียของเทอร์ไบน์ (Turbine Exhaust) เป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 2.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 4.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ท่อลม (ท่อลมร้อน / ท่อลมเย็น) 
+                        หากมีการสั่นสะเทือนและขยับตัวมากๆจากการทำงานของเครื่องจักร 
+                        แรงสั่นสะเทือนนั้นสามารถทำให้ท่อที่ได้ยึดติดตั้งไว้อย่างแข็งแรงด้วยอุปกรณ์ซัพพอร์ตแบบต่าง ๆ 
+                        เกิดการขยับตัวและสร้างความเสียหายที่รุนแรงได้ ฉะนั้นตรงจุดของท่อลมที่มีการสั่นสะเทือน 
+                        ตัวต่อท่อเพื่อรับแรงสั่นสะเทือนและการขยับตัว (Expansion Joint) ของท่อต่าง ๆ 
+                        จึงเป็นตัวเลือกหนึ่งที่สำคัญในการที่จะแก้ไขปัญหาและป้องกันความเสียหายที่อาจเกิดขึ้นได้จากการสั่นสะเทือนของท่อลมและท่อต่าง ๆ ในโรงงาน
+                    </p>
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; บริษัท พินซู จำกัด ผลิตและจำหน่าย 
+                        Fabric Expansion Joint (ข้อต่อท่อลมร้อน / ข้อต่อท่อลมเย็น) 
+                        Flexible Hose (ท่อยืดหด/ท่อย่น) 
+                        ตามขนาดและรูปแบบที่ลูกค้าต้องการสำหรับอุณหภูมิที่เหมาะสม
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-6">
+                    <img src="/images/slides/page-12/Pic - 5.png" class="img-responsive" style="width:100%;">
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/slides/page-12/Pic - 4.png" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 6.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 8.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 9.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 10.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 11.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 12.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 13.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 14.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 15.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 16.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 17.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 18.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 19.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 20.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-12/Pic - 21.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'content_en' => '',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')

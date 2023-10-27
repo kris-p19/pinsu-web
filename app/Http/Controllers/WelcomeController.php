@@ -47,6 +47,9 @@ class WelcomeController extends Controller
                 break;
             case 'Flexible-Joint-Ducts': 
                 $data = Content::where('id',12)->first();
+                $slide = [
+                    asset('images/slides/page-12/Header.jpg')
+                ];
                 break;
             case 'Welding-Blanket-Fire-Blanket': 
                 $data = Content::where('id',13)->first();
