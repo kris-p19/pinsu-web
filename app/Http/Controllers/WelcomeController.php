@@ -58,7 +58,10 @@ class WelcomeController extends Controller
                 ];
                 break;
             case 'Removable-Insulation': 
-                $data = Content::where('id',14)->first();
+                $data = Content::where('id',14)->first(); // 15
+                $slide = [
+                    asset('images/slides/page-15/Header.jpg')
+                ];
                 break;
             case 'Insulation-Accessories': 
                 $data = Content::where('id',15)->first();
