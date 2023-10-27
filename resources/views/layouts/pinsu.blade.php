@@ -74,20 +74,24 @@
                                 <div class="pull-left">
                                     <img src="{{ asset('images/through-logo-edit.png') }}" alt="Logo" width="220">
                                     <p style="padding-top:20px;">
-                                        บริษัท พินซู จำกัด  212/26 หมู่ 7 ถ. บ้านกล้วย-ไทรน้อย ต.พิมลราช อ.บางบัวทอง จ.นนทบุรี 11110
-                                        <br> Pinsu Co., Ltd - 212/26  Moo 7, Ban Kluai Sai Noi Road, Tambon Phimonrat, Amphoe Bang Bua thong, Nonthaburi 11110, Thailand
-                                        <br> Tel : +66(0)88-243 4656 / +66(0)82-919 5356 / +66(0)2063 4564
-                                        <br> Fax : +66(0)2063 4564 
-                                        <br> Email : contact@pinsu.co.th / pinsu@pinsu.co.th
+
+                                        @if (app()->getLocale()=='th')
+                                            บริษัท พินซู จำกัด  212/26 หมู่ 7 ถ. บ้านกล้วย-ไทรน้อย ต.พิมลราช อ.บางบัวทอง จ.นนทบุรี 11110
+                                            <br> โทร : +66(0)88-243 4656 / +66(0)82-919 5356 / +66(0)2063 4564
+                                            <br> แฟกซ์ : +66(0)2063 4564 
+                                            <br> อีเมล : contact@pinsu.co.th / pinsu@pinsu.co.th
+                                        @else
+                                            Pinsu Co., Ltd - 212/26  Moo 7, Ban Kluai Sai Noi Road, Tambon Phimonrat, Amphoe Bang Bua thong, Nonthaburi 11110, Thailand
+                                            <br> Tel : +66(0)88-243 4656 / +66(0)82-919 5356 / +66(0)2063 4564
+                                            <br> Fax : +66(0)2063 4564 
+                                            <br> Email : contact@pinsu.co.th / pinsu@pinsu.co.th
+                                        @endif
+                                        
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-5">
                                 <div class="pull-right">
-                                    {{-- <a href="{{ url('company') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.company') }}</a>
-                                    <a href="{{ url('location') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.location') }}</a>
-                                    <a href="{{ url('news') }}" style="display:inline-block;color:#337ab7;" class="pinsu-nav-item hvr-underline-from-center">{{ __('txt.menu.news') }}</a> --}}
-
                                     <div class="text-right">
                                         <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
                                             <i class="fa-brands fa-facebook-f"></i>
@@ -111,8 +115,6 @@
                         <div class="row">
                             <div class="col-md-12" onblur="">
                                 <p style="display:inline-block;margin-right:10px;">&copy; {{ date('Y')=='2023'?date('Y'):'2023 - ' . date('Y') }} {{ __('txt.company_name') }}</p>
-                                {{-- <a href="javascript:void(0);" style="display:inline-block;margin-right:10px;">Terms of service</a>
-                                <a href="javascript:void(0);" style="display:inline-block;margin-right:10px;">Privacy</a> --}}
                             </div>
                         </div>
                     </div>
