@@ -1460,8 +1460,448 @@ class CreateContentsTable extends Migration
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
-                'content_en' => '',
+                'content_th' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>Multi-Purpose Hi-Temp Woven Fiber Tape</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>เทปผ้าทนอุณหภูมิสูงอเนกประสงค์</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; บริษัท พินซู จำกัด จำหน่ายเทปผ้าทนความร้อนที่ผลิตมาจากเส้นใยซึ่งมีคุณสมบัติในการทนทานต่ออุณหภูมิสูงได้โดยที่ไม่ติดไฟและไม่ลามไฟทอรวมกันออกมาเป็นผืนผ้าที่มีลักษณะหน้ากว้างไม่เกิน 30 เซนติเมตร 
+                        สามารถทนอุณหภูมิได้ตั้งแต่ 350˚C จนถึง 1200˚C  โดยจำแนกออกมาเป็นเทปผ้าชนิดต่างๆและเรียกชื่อตามชนิดของเส้นใยที่ใช้ในการทอ 
+                        คือ เทปใยแก้ว(Glass Tape หรือ Glass Fiber Tape) 
+                        เทปเซรามิคหรือเทปใยเซรามิค (Ceramic Tape / Ceramic Fiber Tape)
+                    </p>
+                    <p style="font-size:20px;margin-top:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; เทปผ้าทนความร้อนชนิดต่างๆนี้สามารถนำเอาไปใช้เป็นผ้าพันท่อไอเสีย(Exhaust Pipe) 
+                        ฉนวนพันท่อไอเสียของเครื่องจักรทั้งในอุตสาหกรรม และ ทั่วๆไป ท่อดักลมร้อนขนาดเล็ก 
+                        ท่อไอน้ำร้อนจาก Boiler และยังสามารถใช้เป็นซีล (Seal)หรือปะเก็น(Gasket) 
+                        กับเตาอุตสาหกรรมต่างๆ อาทิเช่น เตาอบ / เตาหลอม ปะเก็นหน้าแปลน ปะเก็นท่อดักทนความร้อนต่างๆได้อีกด้วย 
+                        เทปผ้าทนความร้อนสูงที่บริษัท พินซู จำกัดจำหน่ายมีดังต่อไปนี้
+                    </p>
+                </div>
+            </div>
+            
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <h4 style="font-size:25px;"><b><u>Glass Fiber Tape / Glass Tape (เทปใยแก้ว)</u></b><br>สำหรับอุณหภูมิ 350C° - 550°C</h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>TG20</th>
+                                <td>0.2MM</td>
+                                <td>50MM - 100MM</td>
+                                <td>30M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>TG300</th>
+                                <td>3MM</td>
+                                <td>25MM - 100MM</td>
+                                <td>30M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>TG500</th>
+                                <td>5MM</td>
+                                <td>50MM - 100MM</td>
+                                <td>30M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>TG1000</th>
+                                <td>10MM</td>
+                                <td>50MM - 100MM</td>
+                                <td>15M/30M ROLL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:20px;"><b><u>เทปใยแก้วชนิดปิดผิว</u></b></p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-2.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b>
+                            Silica Fiber Tape (เทปซิลิก้า)
+                            <br>สำหรับอุณหภูมิ 980°C - 1000°C
+                        </b>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-3.jpg" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b>
+                            <u>Ceramic Fiber Tape / Ceramic Tape (เทปใยเซรามิค/เทปเซรามิค)</u>
+                            <br>สำหรับอุณหภูมิถึง 1200°C
+                        </b>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>TC300</th>
+                                <td>3MM</td>
+                                <td>25MM - 100MM</td>
+                                <td>30M/ROLL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-4.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b><u>Tadpole Tape</u></b>
+                    </p>
+                    <p style="font-size:25px;">
+                        Tadpole Tape ถือได้ว่าเป็นปะเก็นอีกประเภทหนึ่งที่ใช้สำหรับ seal 
+                        หรือปิดขอบประตูเตาอบอุตสาหกรรม เตาหลอมโลหะต่างๆ  บริษัท พินซู จำกัด 
+                        ผลิตและจำหน่าย Tadpole Tape ทนความร้อนสูงที่ทำจากใยแก้ว (Glass Fiber) 
+                        ใยเซรามิก (Ceramic Fiber) พร้อมทั้งใส้ฉนวน (Bulk) 
+                        แบบต่างๆและหลายขนาดตามความต้องการของลูกค้า
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-5.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b><u>ปะเก็นเชือก (Gasket) ทนความร้อน</u></b>
+                    </p>
+                    <p style="font-size:25px;">
+                        ปะเก็นเชือกทนความร้อนใช้สำหรับ seal หรือปิดขอบประตูเตาอบอุตสาหกรรม
+                        เตาหลอมโลหะต่างๆ ใช้งานคล้ายกับ Tadpole Tape
+                        หรือแม้แต่จะใช้เป็นปะเก็นหน้าแปลนท่อโลหะหรือวาล์วทนความร้อนต่างๆก็ได้เช่นกัน
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b><u>ปะเก็นเชือกใยแก้ว</u></b> (Fiber Glass Rope /Glass  Fiber Rope)
+                    </p>
+                    <p style="font-size:25px;">
+                        ใช้กับอุณหภูมิที่ไม่เกิน 550°C
+                        <br>ขนาด: Dia 5mm -  Dia 40mm
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-6.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b><u>ปะเก็นเชือกเซรามิค</u></b> (Ceramic Fiber Rope / Ceramic Rope)
+                    </p>
+                    <p style="font-size:25px;">
+                        ใช้กับอุณหภูมิถึง 1200°C
+                        <br>ขนาด: Dia 5mm -  Dia 40mm
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-7.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
+                'content_en' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>Multi-Purpose Hi-Temp Woven Fiber Tape</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>เทปผ้าทนอุณหภูมิสูงอเนกประสงค์</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; บริษัท พินซู จำกัด จำหน่ายเทปผ้าทนความร้อนที่ผลิตมาจากเส้นใยซึ่งมีคุณสมบัติในการทนทานต่ออุณหภูมิสูงได้โดยที่ไม่ติดไฟและไม่ลามไฟทอรวมกันออกมาเป็นผืนผ้าที่มีลักษณะหน้ากว้างไม่เกิน 30 เซนติเมตร 
+                        สามารถทนอุณหภูมิได้ตั้งแต่ 350˚C จนถึง 1200˚C  โดยจำแนกออกมาเป็นเทปผ้าชนิดต่างๆและเรียกชื่อตามชนิดของเส้นใยที่ใช้ในการทอ 
+                        คือ เทปใยแก้ว(Glass Tape หรือ Glass Fiber Tape) 
+                        เทปเซรามิคหรือเทปใยเซรามิค (Ceramic Tape / Ceramic Fiber Tape)
+                    </p>
+                    <p style="font-size:20px;margin-top:20px;">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; เทปผ้าทนความร้อนชนิดต่างๆนี้สามารถนำเอาไปใช้เป็นผ้าพันท่อไอเสีย(Exhaust Pipe) 
+                        ฉนวนพันท่อไอเสียของเครื่องจักรทั้งในอุตสาหกรรม และ ทั่วๆไป ท่อดักลมร้อนขนาดเล็ก 
+                        ท่อไอน้ำร้อนจาก Boiler และยังสามารถใช้เป็นซีล (Seal)หรือปะเก็น(Gasket) 
+                        กับเตาอุตสาหกรรมต่างๆ อาทิเช่น เตาอบ / เตาหลอม ปะเก็นหน้าแปลน ปะเก็นท่อดักทนความร้อนต่างๆได้อีกด้วย 
+                        เทปผ้าทนความร้อนสูงที่บริษัท พินซู จำกัดจำหน่ายมีดังต่อไปนี้
+                    </p>
+                </div>
+            </div>
+            
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <h4 style="font-size:25px;"><b><u>Glass Fiber Tape / Glass Tape (เทปใยแก้ว)</u></b><br>สำหรับอุณหภูมิ 350C° - 550°C</h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>TG20</th>
+                                <td>0.2MM</td>
+                                <td>50MM - 100MM</td>
+                                <td>30M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>TG300</th>
+                                <td>3MM</td>
+                                <td>25MM - 100MM</td>
+                                <td>30M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>TG500</th>
+                                <td>5MM</td>
+                                <td>50MM - 100MM</td>
+                                <td>30M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>TG1000</th>
+                                <td>10MM</td>
+                                <td>50MM - 100MM</td>
+                                <td>15M/30M ROLL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:20px;"><b><u>เทปใยแก้วชนิดปิดผิว</u></b></p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-2.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b>
+                            Silica Fiber Tape (เทปซิลิก้า)
+                            <br>สำหรับอุณหภูมิ 980°C - 1000°C
+                        </b>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-3.jpg" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b>
+                            <u>Ceramic Fiber Tape / Ceramic Tape (เทปใยเซรามิค/เทปเซรามิค)</u>
+                            <br>สำหรับอุณหภูมิถึง 1200°C
+                        </b>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>TC300</th>
+                                <td>3MM</td>
+                                <td>25MM - 100MM</td>
+                                <td>30M/ROLL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-4.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b><u>Tadpole Tape</u></b>
+                    </p>
+                    <p style="font-size:25px;">
+                        Tadpole Tape ถือได้ว่าเป็นปะเก็นอีกประเภทหนึ่งที่ใช้สำหรับ seal 
+                        หรือปิดขอบประตูเตาอบอุตสาหกรรม เตาหลอมโลหะต่างๆ  บริษัท พินซู จำกัด 
+                        ผลิตและจำหน่าย Tadpole Tape ทนความร้อนสูงที่ทำจากใยแก้ว (Glass Fiber) 
+                        ใยเซรามิก (Ceramic Fiber) พร้อมทั้งใส้ฉนวน (Bulk) 
+                        แบบต่างๆและหลายขนาดตามความต้องการของลูกค้า
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-5.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b><u>ปะเก็นเชือก (Gasket) ทนความร้อน</u></b>
+                    </p>
+                    <p style="font-size:25px;">
+                        ปะเก็นเชือกทนความร้อนใช้สำหรับ seal หรือปิดขอบประตูเตาอบอุตสาหกรรม
+                        เตาหลอมโลหะต่างๆ ใช้งานคล้ายกับ Tadpole Tape
+                        หรือแม้แต่จะใช้เป็นปะเก็นหน้าแปลนท่อโลหะหรือวาล์วทนความร้อนต่างๆก็ได้เช่นกัน
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b><u>ปะเก็นเชือกใยแก้ว</u></b> (Fiber Glass Rope /Glass  Fiber Rope)
+                    </p>
+                    <p style="font-size:25px;">
+                        ใช้กับอุณหภูมิที่ไม่เกิน 550°C
+                        <br>ขนาด: Dia 5mm -  Dia 40mm
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-6.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <p style="font-size:25px;">
+                        <b><u>ปะเก็นเชือกเซรามิค</u></b> (Ceramic Fiber Rope / Ceramic Rope)
+                    </p>
+                    <p style="font-size:25px;">
+                        ใช้กับอุณหภูมิถึง 1200°C
+                        <br>ขนาด: Dia 5mm -  Dia 40mm
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-11/Pic-7.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],

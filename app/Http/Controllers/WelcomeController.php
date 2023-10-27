@@ -41,6 +41,9 @@ class WelcomeController extends Controller
                 break;
             case 'Hi-Temp-Fabric-Tape': 
                 $data = Content::where('id',11)->first();
+                $slide = [
+                    asset('images/slides/page-11/Header.jpg')
+                ];
                 break;
             case 'Flexible-Joint-Ducts': 
                 $data = Content::where('id',12)->first();
