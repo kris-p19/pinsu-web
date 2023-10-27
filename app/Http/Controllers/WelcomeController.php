@@ -70,7 +70,14 @@ class WelcomeController extends Controller
                 ];
                 break;
             case 'Hi-Temp-Sewing-Thread': 
-                $data = Content::where('id',16)->first();
+                $data = Content::where('id',16)->first(); // 17
+                $slide = [
+                    asset('images/slides/page-17/Slide-1.JPG'),
+                    asset('images/slides/page-17/Slide-2.JPG'),
+                    asset('images/slides/page-17/Slide-3.JPG'),
+                    asset('images/slides/page-17/Slide-4.JPG'),
+                    asset('images/slides/page-17/Slide-5.JPG')
+                ];
                 break;
             case 'Temporary-Work-Shop': 
                 $data = Content::where('id',17)->first();

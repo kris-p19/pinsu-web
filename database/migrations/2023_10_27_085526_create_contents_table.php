@@ -3590,7 +3590,88 @@ class CreateContentsTable extends Migration
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
+                'content_th' => '<div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <img src="/images/slides/page-17/Pic-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        บริษัท พินซู จำกัด จำหน่ายด้ายทนความร้อนสำหรับการใช้งานที่หลากหลาย 
+                        ด้ายเย็บผ้าของเราทุกชนิดทำมาจากเส้นใยสังเคราะห์และวัสดุที่ทนความร้อน ไม่ติดไฟ และ ไม่ลามไฟ 
+                        เหมาะสำหรับการเย็บผ้าทนความร้อนชนิดต่างๆ อาทิเช่น ผ้าใยแก้ว(Glass Fiber Fabrics)
+                        ผ้าซิลิก้า (Silica Fiber Fabrics) ผ้าเซรามิค(Ceramic Fiber Fabrics) 
+                        ใช้ในงานฉนวนแบบถอดได้ (Removable Insulation Jackets) เย็บผ้ากันสะเก็ดไฟ ผ้ากันไฟ ชุดและผ้าคลุมกันความร้อนแบบต่างๆ 
+                        ม่านกันไฟ ม่านกันความร้อน ใช้สำหรับเย็บถุงกรองฝุ่นอุตสาหกรรม เป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <img src="/images/slides/page-17/SP25-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        ด้าย PTFE (SP25) สามารถทนอุณหภูมิได้ถึง 280°C ผิวมันลื่น มีความเหนียว 
+                        ทนทานต่อการเสียดสี สามารถเย็บผ้าใยแก้ว ผ้าซิลิก้า ผ้าเซรามิคซ้อนกันหลายชั้นได้  
+                        ด้าย PTFE มีคุณสมบัติอีกหลายอย่าง คือ ทนต่อสารเคมี ทนต่อแสง UV 
+                        ทนน้ำเค็มจึงเป็นอีกตัวเลือกหนึ่งที่นิยมใช้สำหรับเย็บผ้าใบ ผ้าCanvas สำหรับเต็นท์ที่ติดตั้งกลางแจ้ง 
+                        ผ้าใบคลุมเรือ และยังใช้เย็บถุงกรองฝุ่นที่ใช้ในอุตสาหกรรมต่างๆได้อีกด้วย
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <img src="/images/slides/page-17/SG45-P-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        <u><b>ด้ายใยแก้ว</b></u> - Glass Fiber Sewing Thread
+                        (สำหรับใช้กับจักรเย็บ / สำหรับเข็มเย็บมือ)
+                        ด้ายใยแก้วสามารถใช้งานได้ดีกับอุณหภูมิที่ไม่เกิน 350°C โดยปกติแล้ว 
+                        ใยแก้ว หรือ Glass Fiber Yarn จะมีความเปราะและขาดง่าย 
+                        เมื่อนำมาผลิตเป็นเส้นด้ายสำหรับเย็บผ้าทนความร้อนและสามารถที่จะใช้กับจักรเย็บได้นั้น 
+                        ผู้ผลิตโดยส่วนมากจะทำการเคลือบเส้นด้ายใยแก้วอีกครั้งหนึ่งเพื่อเพิ่มความแข็งแรงของเส้นด้าย 
+                        ให้ทนต่อการเสียดสีมากยิ่งขึ้น ด้ายใยแก้ว รุ่น SG45-P ของเรา เป็นด้ายใยแก้วที่เคลือบด้วย Teflon PTFE 
+                        ไม่ติดไฟและไม่ลามไฟและเป็นไปตามมาตรฐาน MIL-C-20079, 
+                        Type III, Class 3 ของ United States Military Standard สามารถใช้กับจักรเย็บได้
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        <u><b>ด้ายใยแก้วรุ่น SG100 (1mm)  และ SG200 (2mm)</b></u> เหมาะสำหรับการเย็บด้วยเข็มเย็บมือ
+                    </p>
+                </div>
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-17/SG100 - SG200.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        <u><b>ด้ายอารามิดเสริมด้วยลวดสแตนเลส</b></u> (≤ 450˚C - 800°C)
+                    </p>
+                </div>
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-17/XXXX.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        <u><b>ด้ายสแตนเลสเคลือบด้วย PTFE</b></u> (SS35-P) สามารถทนอุณหภูมิได้ถึง 800°C
+                    </p>
+                </div>
+                <div class="col-md-offset-2 col-md-8">
+                    <img src="/images/slides/page-17/SS35-P.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'content_en' => '',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
