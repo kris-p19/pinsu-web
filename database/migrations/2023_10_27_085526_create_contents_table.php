@@ -138,11 +138,11 @@ class CreateContentsTable extends Migration
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                                     <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fabrics / ผ้าทนความร้อน</b></h3>
                                                     <ul>
-                                                        <li><a href="">Glass Fabrics / ผ้าใยแก้ว</a></li>
-                                                        <li><a href="">Silica Fabrics / ผ้าซิลิก้า</a></li>
-                                                        <li><a href="">Ceramic Fabrics / ผ้าเซรามิค</a></li>
-                                                        <li><a href="">Silicone Coated Fabrics / ผ้าเคลือบซิลิโคน</a></li>
-                                                        <li><a href="">PTFE Coated Fabrics / ผ้าเคลือบ PTFE</a></li>
+                                                        <li><a href="/Glass-Fabrics">Glass Fabrics / ผ้าใยแก้ว</a></li>
+                                                        <li><a href="/Silica-Fabrics">Silica Fabrics / ผ้าซิลิก้า</a></li>
+                                                        <li><a href="/Ceramic-Fabrics">Ceramic Fabrics / ผ้าเซรามิค</a></li>
+                                                        <li><a href="/Silicone-Coated-Fabrics">Silicone Coated Fabrics / ผ้าเคลือบซิลิโคน</a></li>
+                                                        <li><a href="/PTFE-Coated-Fabrics">PTFE Coated Fabrics / ผ้าเคลือบ PTFE</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -155,12 +155,12 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fiber Tape / Gasket เทปพันท่อ / ปะเก็น</b></h3>
+                                                    <a href="/Hi-Temp-Fabric-Tape"><h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fiber Tape / Gasket เทปพันท่อ / ปะเก็น</b></h3></a>
                                                     <ul>
-                                                        <li><a href="">Glass Fiber Tape / เทปใยแก้ว</a></li>
-                                                        <li><a href="">Ceramic Fiber Tape / เทปเซรามิค</a></li>
-                                                        <li><a href="">Basalt Fiber Tape / เทปใยหิน</a></li>
-                                                        <li><a href="">Gasket / ปะเก็น</a></li>
+                                                        <li><a href="/Hi-Temp-Fabric-Tape">Glass Fiber Tape / เทปใยแก้ว</a></li>
+                                                        <li><a href="/Hi-Temp-Fabric-Tape">Ceramic Fiber Tape / เทปเซรามิค</a></li>
+                                                        <li><a href="/Hi-Temp-Fabric-Tape">Basalt Fiber Tape / เทปใยหิน</a></li>
+                                                        <li><a href="/Hi-Temp-Fabric-Tape">Gasket / ปะเก็น</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -173,14 +173,14 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;"><b style="color:#015f01;">Removable Insulations / ฉนวนความร้อนแบบถอดได้</b></h3>
+                                                    <a href="/Removable-Insulation"><h3 style="margin-top:0px;"><b style="color:#015f01;">Removable Insulations / ฉนวนความร้อนแบบถอดได้</b></h3></a>
                                                     <ul>
-                                                        <li><a href="">ฉนวนเตาอบอุตสาหกรรม</a></li>
-                                                        <li><a href="">ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</a></li>
-                                                        <li><a href="">ฉนวนหุ้มเครื่องฉีดพลาสติก</a></li>
-                                                        <li><a href="">ฉนวนหุ้ม Heater</a></li>
-                                                        <li><a href="">ฉนวนหุ้มท่อ Boiler</a></li>
-                                                        <li><a href="">ฉนวนเทอร์ไบน์ (Turbine Insulation)</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนเตาอบอุตสาหกรรม</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนหุ้มเครื่องฉีดพลาสติก</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนหุ้ม Heater</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนหุ้มท่อ Boiler</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนเทอร์ไบน์ (Turbine Insulation)</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -193,22 +193,16 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Flexible Joint / Expansion Joint 
-                                                            Fabric Expansion Joint / 
-                                                            Flexible Duct Connector 
-                                                            ข้อต่อท่อลมร้อน/เย็น (แบบยืดหดได้)
-                                                        </b>
-                                                    </h3>
-                                                    <!-- <ul>
-                                                        <li>ฉนวนเตาอบอุตสาหกรรม</li>
-                                                        <li>ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</li>
-                                                        <li>ฉนวนหุ้มเครื่องฉีดพลาสติก</li>
-                                                        <li>ฉนวนหุ้ม Heater</li>
-                                                        <li>ฉนวนหุ้มท่อ Boiler</li>
-                                                        <li>ฉนวนเทอร์ไบน์ (Turbine Insulation)</li>
-                                                    </ul> -->
+                                                    <a href="/Flexible-Joint-Ducts">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Flexible Joint / Expansion Joint 
+                                                                Fabric Expansion Joint / 
+                                                                Flexible Duct Connector 
+                                                                ข้อต่อท่อลมร้อน/เย็น (แบบยืดหดได้)
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                                     <img src="/images/footers/Flexible Joint.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
@@ -220,18 +214,20 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Welding Blanket / Welding Curtain      
-                                                            ผ้ากันสะเก็ดไฟ 
-                                                            Fire Blanket / ผ้าห่มดับไฟ 
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Welding-Blanket-Fire-Blanket">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Welding Blanket / Welding Curtain      
+                                                                ผ้ากันสะเก็ดไฟ 
+                                                                Fire Blanket / ผ้าห่มดับไฟ 
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">ผ้ากันสะเก็ดไฟแบบประหยัด / งานเบา</a></li>
-                                                        <li><a href="">ผ้ากันสะเก็ดไฟสำหรับงานเชื่อม / ตัดโลหะ</a></li>
-                                                        <li><a href="">ผ้ากันสะเก็ดไฟชนิดไม่คัน</a></li>
-                                                        <li><a href="">ม่านกรองแสงสะเก็ดไฟงานเชื่อม</a></li>
+                                                        <li><a href="/Welding-Blanket-Fire-Blanket">ผ้ากันสะเก็ดไฟแบบประหยัด / งานเบา</a></li>
+                                                        <li><a href="/Welding-Blanket-Fire-Blanket">ผ้ากันสะเก็ดไฟสำหรับงานเชื่อม / ตัดโลหะ</a></li>
+                                                        <li><a href="/Welding-Blanket-Fire-Blanket">ผ้ากันสะเก็ดไฟชนิดไม่คัน</a></li>
+                                                        <li><a href="/Welding-Blanket-Fire-Blanket">ม่านกรองแสงสะเก็ดไฟงานเชื่อม</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -244,18 +240,20 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Hi-Temp Sewing Thread ด้ายทนความร้อน
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Hi-Temp-Sewing-Thread">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Hi-Temp Sewing Thread ด้ายทนความร้อน
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">PTFE Sewing Thread / ด้าย PTFE</a></li>
-                                                        <li><a href="">Aramid Sewing Thread / Kevlar Thread ด้ายเคฟล่า / ด้ายอารามิด</a></li>
-                                                        <li><a href="">Glass Fiber Sewing Thread / ด้ายใยแก้ว</a></li>
-                                                        <li><a href="">Stainless Steel Sewing Thread / ด้ายสแตนเลส</a></li>
-                                                        <li><a href="">Carbon Fiber Sewing Thread / ด้ายคาร์บอน</a></li>
-                                                        <li><a href="">Silica Fiber Sewing Thread / ด้ายซิลิก้า</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">PTFE Sewing Thread / ด้าย PTFE</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Aramid Sewing Thread / Kevlar Thread ด้ายเคฟล่า / ด้ายอารามิด</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Glass Fiber Sewing Thread / ด้ายใยแก้ว</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Stainless Steel Sewing Thread / ด้ายสแตนเลส</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Carbon Fiber Sewing Thread / ด้ายคาร์บอน</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Silica Fiber Sewing Thread / ด้ายซิลิก้า</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -268,17 +266,19 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Insulation Fasteners วัสดุยึดฉนวน
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Insulation-Accessories">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Insulation Fasteners วัสดุยึดฉนวน
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">Insulation Pins / หมุดยึดฉนวน / เข็มยึดฉนวน</a></li>
-                                                        <li><a href="">Stainless Steel Hook / ตะขอสแตนเลส ยึด-เกี่ยวฉนวน</a></li>
-                                                        <li><a href="">Lacing Anchors</a></li>
-                                                        <li><a href="">Stud Welding Pins</a></li>
-                                                        <li><a href="">SS D-Ring</a></li>
+                                                        <li><a href="/Insulation-Accessories">Insulation Pins / หมุดยึดฉนวน / เข็มยึดฉนวน</a></li>
+                                                        <li><a href="/Insulation-Accessories">Stainless Steel Hook / ตะขอสแตนเลส ยึด-เกี่ยวฉนวน</a></li>
+                                                        <li><a href="/Insulation-Accessories">Lacing Anchors</a></li>
+                                                        <li><a href="/Insulation-Accessories">Stud Welding Pins</a></li>
+                                                        <li><a href="/Insulation-Accessories">SS D-Ring</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -291,15 +291,17 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Fiber Blanket / ฉนวนแบบแผ่น
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Fiber-Blanket">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Fiber Blanket / ฉนวนแบบแผ่น
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">Glass Wool (Glass Needled Mat)</a></li>
-                                                        <li><a href="">(Bio-Soluble) Ceramic Fiber Blanket</a></li>
-                                                        <li><a href="">ฉนวนเซรามิคชนิดปิดผิว</a></li>
+                                                        <li><a href="/Fiber-Blanket">Glass Wool (Glass Needled Mat)</a></li>
+                                                        <li><a href="/Fiber-Blanket">(Bio-Soluble) Ceramic Fiber Blanket</a></li>
+                                                        <li><a href="/Fiber-Blanket">ฉนวนเซรามิคชนิดปิดผิว</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -312,13 +314,15 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Work Tents
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Temporary-Work-Shop">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Work Tents
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">เต็นท์ผ้าใบ</a></li>
+                                                        <li><a href="/Temporary-Work-Shop">เต็นท์ผ้าใบ</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -336,11 +340,11 @@ class CreateContentsTable extends Migration
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                                     <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fabrics / ผ้าทนความร้อน</b></h3>
                                                     <ul>
-                                                        <li><a href="">Glass Fabrics / ผ้าใยแก้ว</a></li>
-                                                        <li><a href="">Silica Fabrics / ผ้าซิลิก้า</a></li>
-                                                        <li><a href="">Ceramic Fabrics / ผ้าเซรามิค</a></li>
-                                                        <li><a href="">Silicone Coated Fabrics / ผ้าเคลือบซิลิโคน</a></li>
-                                                        <li><a href="">PTFE Coated Fabrics / ผ้าเคลือบ PTFE</a></li>
+                                                        <li><a href="/Glass-Fabrics">Glass Fabrics / ผ้าใยแก้ว</a></li>
+                                                        <li><a href="/Silica-Fabrics">Silica Fabrics / ผ้าซิลิก้า</a></li>
+                                                        <li><a href="/Ceramic-Fabrics">Ceramic Fabrics / ผ้าเซรามิค</a></li>
+                                                        <li><a href="/Silicone-Coated-Fabrics">Silicone Coated Fabrics / ผ้าเคลือบซิลิโคน</a></li>
+                                                        <li><a href="/PTFE-Coated-Fabrics">PTFE Coated Fabrics / ผ้าเคลือบ PTFE</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -353,12 +357,12 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fiber Tape / Gasket เทปพันท่อ / ปะเก็น</b></h3>
+                                                    <a href="/Hi-Temp-Fabric-Tape"><h3 style="margin-top:0px;"><b style="color:#015f01;">Hi-Temp Fiber Tape / Gasket เทปพันท่อ / ปะเก็น</b></h3></a>
                                                     <ul>
-                                                        <li><a href="">Glass Fiber Tape / เทปใยแก้ว</a></li>
-                                                        <li><a href="">Ceramic Fiber Tape / เทปเซรามิค</a></li>
-                                                        <li><a href="">Basalt Fiber Tape / เทปใยหิน</a></li>
-                                                        <li><a href="">Gasket / ปะเก็น</a></li>
+                                                        <li><a href="/Hi-Temp-Fabric-Tape">Glass Fiber Tape / เทปใยแก้ว</a></li>
+                                                        <li><a href="/Hi-Temp-Fabric-Tape">Ceramic Fiber Tape / เทปเซรามิค</a></li>
+                                                        <li><a href="/Hi-Temp-Fabric-Tape">Basalt Fiber Tape / เทปใยหิน</a></li>
+                                                        <li><a href="/Hi-Temp-Fabric-Tape">Gasket / ปะเก็น</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -371,14 +375,14 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;"><b style="color:#015f01;">Removable Insulations / ฉนวนความร้อนแบบถอดได้</b></h3>
+                                                    <a href="/Removable-Insulation"><h3 style="margin-top:0px;"><b style="color:#015f01;">Removable Insulations / ฉนวนความร้อนแบบถอดได้</b></h3></a>
                                                     <ul>
-                                                        <li><a href="">ฉนวนเตาอบอุตสาหกรรม</a></li>
-                                                        <li><a href="">ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</a></li>
-                                                        <li><a href="">ฉนวนหุ้มเครื่องฉีดพลาสติก</a></li>
-                                                        <li><a href="">ฉนวนหุ้ม Heater</a></li>
-                                                        <li><a href="">ฉนวนหุ้มท่อ Boiler</a></li>
-                                                        <li><a href="">ฉนวนเทอร์ไบน์ (Turbine Insulation)</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนเตาอบอุตสาหกรรม</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนหุ้มเครื่องฉีดพลาสติก</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนหุ้ม Heater</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนหุ้มท่อ Boiler</a></li>
+                                                        <li><a href="/Removable-Insulation">ฉนวนเทอร์ไบน์ (Turbine Insulation)</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -391,22 +395,16 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Flexible Joint / Expansion Joint 
-                                                            Fabric Expansion Joint / 
-                                                            Flexible Duct Connector 
-                                                            ข้อต่อท่อลมร้อน/เย็น (แบบยืดหดได้)
-                                                        </b>
-                                                    </h3>
-                                                    <!-- <ul>
-                                                        <li>ฉนวนเตาอบอุตสาหกรรม</li>
-                                                        <li>ฉนวนหุ้มวาล์ว / เสื้อหุ้มวาล์ว</li>
-                                                        <li>ฉนวนหุ้มเครื่องฉีดพลาสติก</li>
-                                                        <li>ฉนวนหุ้ม Heater</li>
-                                                        <li>ฉนวนหุ้มท่อ Boiler</li>
-                                                        <li>ฉนวนเทอร์ไบน์ (Turbine Insulation)</li>
-                                                    </ul> -->
+                                                    <a href="/Flexible-Joint-Ducts">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Flexible Joint / Expansion Joint 
+                                                                Fabric Expansion Joint / 
+                                                                Flexible Duct Connector 
+                                                                ข้อต่อท่อลมร้อน/เย็น (แบบยืดหดได้)
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                                     <img src="/images/footers/Flexible Joint.jpg" style="width:100%;height:300px;object-fit:cover;border-radius:25px;">
@@ -418,18 +416,20 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Welding Blanket / Welding Curtain      
-                                                            ผ้ากันสะเก็ดไฟ 
-                                                            Fire Blanket / ผ้าห่มดับไฟ 
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Welding-Blanket-Fire-Blanket">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Welding Blanket / Welding Curtain      
+                                                                ผ้ากันสะเก็ดไฟ 
+                                                                Fire Blanket / ผ้าห่มดับไฟ 
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">ผ้ากันสะเก็ดไฟแบบประหยัด / งานเบา</a></li>
-                                                        <li><a href="">ผ้ากันสะเก็ดไฟสำหรับงานเชื่อม / ตัดโลหะ</a></li>
-                                                        <li><a href="">ผ้ากันสะเก็ดไฟชนิดไม่คัน</a></li>
-                                                        <li><a href="">ม่านกรองแสงสะเก็ดไฟงานเชื่อม</a></li>
+                                                        <li><a href="/Welding-Blanket-Fire-Blanket">ผ้ากันสะเก็ดไฟแบบประหยัด / งานเบา</a></li>
+                                                        <li><a href="/Welding-Blanket-Fire-Blanket">ผ้ากันสะเก็ดไฟสำหรับงานเชื่อม / ตัดโลหะ</a></li>
+                                                        <li><a href="/Welding-Blanket-Fire-Blanket">ผ้ากันสะเก็ดไฟชนิดไม่คัน</a></li>
+                                                        <li><a href="/Welding-Blanket-Fire-Blanket">ม่านกรองแสงสะเก็ดไฟงานเชื่อม</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -442,18 +442,20 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Hi-Temp Sewing Thread ด้ายทนความร้อน
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Hi-Temp-Sewing-Thread">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Hi-Temp Sewing Thread ด้ายทนความร้อน
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">PTFE Sewing Thread / ด้าย PTFE</a></li>
-                                                        <li><a href="">Aramid Sewing Thread / Kevlar Thread ด้ายเคฟล่า / ด้ายอารามิด</a></li>
-                                                        <li><a href="">Glass Fiber Sewing Thread / ด้ายใยแก้ว</a></li>
-                                                        <li><a href="">Stainless Steel Sewing Thread / ด้ายสแตนเลส</a></li>
-                                                        <li><a href="">Carbon Fiber Sewing Thread / ด้ายคาร์บอน</a></li>
-                                                        <li><a href="">Silica Fiber Sewing Thread / ด้ายซิลิก้า</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">PTFE Sewing Thread / ด้าย PTFE</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Aramid Sewing Thread / Kevlar Thread ด้ายเคฟล่า / ด้ายอารามิด</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Glass Fiber Sewing Thread / ด้ายใยแก้ว</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Stainless Steel Sewing Thread / ด้ายสแตนเลส</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Carbon Fiber Sewing Thread / ด้ายคาร์บอน</a></li>
+                                                        <li><a href="/Hi-Temp-Sewing-Thread">Silica Fiber Sewing Thread / ด้ายซิลิก้า</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -466,17 +468,19 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Insulation Fasteners วัสดุยึดฉนวน
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Insulation-Accessories">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Insulation Fasteners วัสดุยึดฉนวน
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">Insulation Pins / หมุดยึดฉนวน / เข็มยึดฉนวน</a></li>
-                                                        <li><a href="">Stainless Steel Hook / ตะขอสแตนเลส ยึด-เกี่ยวฉนวน</a></li>
-                                                        <li><a href="">Lacing Anchors</a></li>
-                                                        <li><a href="">Stud Welding Pins</a></li>
-                                                        <li><a href="">SS D-Ring</a></li>
+                                                        <li><a href="/Insulation-Accessories">Insulation Pins / หมุดยึดฉนวน / เข็มยึดฉนวน</a></li>
+                                                        <li><a href="/Insulation-Accessories">Stainless Steel Hook / ตะขอสแตนเลส ยึด-เกี่ยวฉนวน</a></li>
+                                                        <li><a href="/Insulation-Accessories">Lacing Anchors</a></li>
+                                                        <li><a href="/Insulation-Accessories">Stud Welding Pins</a></li>
+                                                        <li><a href="/Insulation-Accessories">SS D-Ring</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -489,15 +493,17 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12" style="padding-top:20px;padding-bottom:20px;">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Fiber Blanket / ฉนวนแบบแผ่น
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Fiber-Blanket">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Fiber Blanket / ฉนวนแบบแผ่น
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">Glass Wool (Glass Needled Mat)</a></li>
-                                                        <li><a href="">(Bio-Soluble) Ceramic Fiber Blanket</a></li>
-                                                        <li><a href="">ฉนวนเซรามิคชนิดปิดผิว</a></li>
+                                                        <li><a href="/Fiber-Blanket">Glass Wool (Glass Needled Mat)</a></li>
+                                                        <li><a href="/Fiber-Blanket">(Bio-Soluble) Ceramic Fiber Blanket</a></li>
+                                                        <li><a href="/Fiber-Blanket">ฉนวนเซรามิคชนิดปิดผิว</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -510,13 +516,15 @@ class CreateContentsTable extends Migration
                                         <div class="col-md-12">
                                             <div class="row">
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
-                                                    <h3 style="margin-top:0px;">
-                                                        <b style="color:#015f01;">
-                                                            Work Tents
-                                                        </b>
-                                                    </h3>
+                                                    <a href="/Temporary-Work-Shop">
+                                                        <h3 style="margin-top:0px;">
+                                                            <b style="color:#015f01;">
+                                                                Work Tents
+                                                            </b>
+                                                        </h3>
+                                                    </a>
                                                     <ul>
-                                                        <li><a href="">เต็นท์ผ้าใบ</a></li>
+                                                        <li><a href="/Temporary-Work-Shop">เต็นท์ผ้าใบ</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -530,10 +538,474 @@ class CreateContentsTable extends Migration
                 'updated_at' => date('Y-m-d H:i:s')
             ],
 
-            // 6 - 18
+            // 6 - 19
+            [ // 6
+                'content_th' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>Glass Fabrics / Fiberglass Fabrics / Glass Fiber Fabrics</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>ผ้าใยแก้ว</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <img src="/images/slides/page-06/FG43.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        ผ้าใยแก้วเป็นผ้าที่ทำมาจากเส้นใยแก้ว (Glass Yarn) 
+                        ที่มีคุณสมบัติในการทนความร้อนสูง ทอออกมาเป็นผืนมีความหนาและความกว้างตามความต้องการและความเหมาะสมในการใช้งาน 
+                        ผ้าใยแก้วถูกนำเอาไปใช้ในหลายๆอุตสาหกรรม ไม่ว่าจะเป็นการเสริมความแข็งแรงซีเมนต์ 
+                        (Glass Fiber Reinforced Concrete or GFRC) โครงสร้างในอุตสาหกรรมก่อสร้าง 
+                        เสริมความแข็งแรงของชิ้นส่วนพลาสติก
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <img src="/images/slides/page-06/FG50-B.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        (Glass Fiber Reinforced Plastic)ในอุตสาหกรรมพลาสติกและอุตสาหกรรมยานยนต์ ผ้าใยแก้ว 
+                        (Glass Fiber Fabrics / Glass Fabrics) ยังเป็นที่นิยมนำเอาไปใช้เป็นฉนวนความร้อนในรูปแบบต่าง ๆ 
+                        อาทิเช่น เป็นวัสดุประกอบฉนวนทนความร้อน 
+                        ฉนวนรักษาความร้อน (Insulation Jacket/Insulation scale-down) 
+                        ผ้ากันสะเก็ดไฟ (Welding Blanket ) ผ้าทนไฟ (Fire-Proof Blanket) 
+                        ผ้าทนความร้อน (Thermal Insulation Fabrics / Heat Protective Fabrics) 
+                        ที่ใช้กันอย่างแพร่หลายในอุตสาหกรรม และ โรงงานต่างๆ ในบ้านเรา
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <img src="/images/slides/page-06/FG100-B.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        บริษัท พินซู จำกัด นำเข้าและจำหน่ายผ้าใยแก้วสำหรับงานฉนวนทนความร้อน (Thermal Insulation / Heat Insulation) 
+                        ฉนวนกันความร้อน ผ้ากันสะเก็ดไฟ (Welding Blanket / Welding Curtain) 
+                        ผ้าทนไฟ (Fire Resistant Fabrics and Blanket) 
+                        ผ้าทนความร้อน ม่านกันความร้อน / ม่านทนความร้อน (Thermal Curtain) 
+                        ที่ใช้ในอุตสาหกรรมต่างๆ
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4" style="margin-bottom:20px;">
+                    <img src="/images/slides/page-06/FG176-B.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+                <div class="col-md-4" style="margin-bottom:20px;">
+                    <img src="/images/slides/page-06/FG300-B.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>FG18</th>
+                                <td>0.18MM</td>
+                                <td>1000MM</td>
+                                <td>100M/200M</td>
+                            </tr>
+                            <tr>
+                                <th>FG43</th>
+                                <td>0.43MM</td>
+                                <td>1000MM</td>
+                                <td>50M</td>
+                            </tr>
+                            <tr>
+                                <th>FG50</th>
+                                <td>0.50MM</td>
+                                <td>1000MM</td>
+                                <td>100M</td>
+                            </tr>
+                            <tr>
+                                <th>FG100</th>
+                                <td>1MM</td>
+                                <td>1000MM</td>
+                                <td>50M</td>
+                            </tr>
+                            <tr>
+                                <th>FG176</th>
+                                <td>1.76MM</td>
+                                <td>1000MM</td>
+                                <td>25M / 50M</td>
+                            </tr>
+                            <tr>
+                                <th>FG300</th>
+                                <td>3MM</td>
+                                <td>1000MM</td>
+                                <td>30M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>',
+                'content_en' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>Glass Fabrics / Fiberglass Fabrics / Glass Fiber Fabrics</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>ผ้าใยแก้ว</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <img src="/images/slides/page-06/FG43.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        ผ้าใยแก้วเป็นผ้าที่ทำมาจากเส้นใยแก้ว (Glass Yarn) 
+                        ที่มีคุณสมบัติในการทนความร้อนสูง ทอออกมาเป็นผืนมีความหนาและความกว้างตามความต้องการและความเหมาะสมในการใช้งาน 
+                        ผ้าใยแก้วถูกนำเอาไปใช้ในหลายๆอุตสาหกรรม ไม่ว่าจะเป็นการเสริมความแข็งแรงซีเมนต์ 
+                        (Glass Fiber Reinforced Concrete or GFRC) โครงสร้างในอุตสาหกรรมก่อสร้าง 
+                        เสริมความแข็งแรงของชิ้นส่วนพลาสติก
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <img src="/images/slides/page-06/FG50-B.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        (Glass Fiber Reinforced Plastic)ในอุตสาหกรรมพลาสติกและอุตสาหกรรมยานยนต์ ผ้าใยแก้ว 
+                        (Glass Fiber Fabrics / Glass Fabrics) ยังเป็นที่นิยมนำเอาไปใช้เป็นฉนวนความร้อนในรูปแบบต่าง ๆ 
+                        อาทิเช่น เป็นวัสดุประกอบฉนวนทนความร้อน 
+                        ฉนวนรักษาความร้อน (Insulation Jacket/Insulation scale-down) 
+                        ผ้ากันสะเก็ดไฟ (Welding Blanket ) ผ้าทนไฟ (Fire-Proof Blanket) 
+                        ผ้าทนความร้อน (Thermal Insulation Fabrics / Heat Protective Fabrics) 
+                        ที่ใช้กันอย่างแพร่หลายในอุตสาหกรรม และ โรงงานต่างๆ ในบ้านเรา
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4">
+                    <img src="/images/slides/page-06/FG100-B.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        บริษัท พินซู จำกัด นำเข้าและจำหน่ายผ้าใยแก้วสำหรับงานฉนวนทนความร้อน (Thermal Insulation / Heat Insulation) 
+                        ฉนวนกันความร้อน ผ้ากันสะเก็ดไฟ (Welding Blanket / Welding Curtain) 
+                        ผ้าทนไฟ (Fire Resistant Fabrics and Blanket) 
+                        ผ้าทนความร้อน ม่านกันความร้อน / ม่านทนความร้อน (Thermal Curtain) 
+                        ที่ใช้ในอุตสาหกรรมต่างๆ
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-4" style="margin-bottom:20px;">
+                    <img src="/images/slides/page-06/FG176-B.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+                <div class="col-md-4" style="margin-bottom:20px;">
+                    <img src="/images/slides/page-06/FG300-B.jpg" class="img-responsive" style="width:100%;object-fit:scale-down;height:300px;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>FG18</th>
+                                <td>0.18MM</td>
+                                <td>1000MM</td>
+                                <td>100M/200M</td>
+                            </tr>
+                            <tr>
+                                <th>FG43</th>
+                                <td>0.43MM</td>
+                                <td>1000MM</td>
+                                <td>50M</td>
+                            </tr>
+                            <tr>
+                                <th>FG50</th>
+                                <td>0.50MM</td>
+                                <td>1000MM</td>
+                                <td>100M</td>
+                            </tr>
+                            <tr>
+                                <th>FG100</th>
+                                <td>1MM</td>
+                                <td>1000MM</td>
+                                <td>50M</td>
+                            </tr>
+                            <tr>
+                                <th>FG176</th>
+                                <td>1.76MM</td>
+                                <td>1000MM</td>
+                                <td>25M / 50M</td>
+                            </tr>
+                            <tr>
+                                <th>FG300</th>
+                                <td>3MM</td>
+                                <td>1000MM</td>
+                                <td>30M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
+            ],
             [
-                'content_th' => '',
-                'content_en' => '',
+                'content_th' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>Silica Fiber Fabrics / Silica Fabrics / Silica Cloth</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>ผ้าซิลิก้า</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        ผ้าซิลิก้า (Silica Fiber Fabrics) เป็นผ้าที่มีคุณสมบัติหลายอย่าง 
+                        ซึ่งรวมทั้งคุณสมบัติในการนำพาความร้อนต่ำ ทนทานต่อความร้อนได้ดีกว่าผ้าประเภทอื่นๆ อาทิเช่น 
+                        ผ้าอารามิด (Aramid Fabrics) 
+                        ผ้าใยแก้ว (Glass Fiber Fabrics) 
+                        ผ้าบะซอลต์ (Basalt Fiber Fabrics) 
+                        ผ้าคาร์บอน (Carbon Fiber Fabrics) เป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <img src="/images/slides/page-07/Pic-2.jpg" style="max-width:100%;width:300px;object-fit:scale-down;float:right;">
+                    <p style="font-size:20px;display:contents;float:left;">
+                        ผ้าซิลิก้า (Silica Cloth/Silica Fabric) เหมาะกับการที่จะนำเอาไปใช้ประโยชน์กับงานที่เกี่ยวข้องกับความร้อนสูง 
+                        ผ้าซิลิก้าที่นำเอามาใช้ในอุตสาหกรรมโดยทั่วๆไปในบ้านเรา ถือได้ว่าเป็นผ้าซิลิก้าเกรดอุตสาหกรรม (Industrial Grade Silica Fiber Fabrics) 
+                        ซึ่งมี Tensile Strength สูง กว่าผ้าซิลิก้าเกรด Aerospace หรือ เกรด Shrinkage Controlled ไม่ฉีกขาดง่าย 
+                        เหมาะสำหรับนำมาตัดเย็บงานฉนวนแบบถอดได้ เย็บเป็นผ้ากันสะเก็ดไฟ 
+                        ผ้าซิลิก้าสามารถทนความร้อนและใช้งานได้อย่างต่อเนื่องกับความร้อนที่ประมาณ 980°C 
+                        โดยที่คุณสมบัติต่างๆยังคงเดิม ในขณะเดียวกันผ้าซิลิก้าจะยังคงรักษาลักษณะความเป็นผ้าที่ยังคงใช้งานได้เมื่อสัมผัสกับอุณหภูมิที่สูงถึงประมาณ 1200°C 
+                        โดยที่คุณสมบัติด้านอื่นๆอาจลดลงไปบ้าง 
+                        (ที่มา - U.S. International Trade and Commission)
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        ประโยชน์ของผ้าซิลิก้า คือ สามารถนำมาทำเป็นผ้ากันสะเก็ดไฟ (Welding Blankets)
+                        สำหรับงานเชื่อมโลหะ/งานตัดโลหะ/งานเจียร์โลหะ (Welding Blankets) ได้เป็นอย่างดี 
+                        ใช้เป็นผ้ากันไฟ (Fireproof Blankets) ใช้เป็นส่วนประกอบฉนวนหุ้มท่อ (Pipe Insulation / Pipe Coverings / Hose Coverings) 
+                        ฉนวนทนความร้อนแบบถอดได้ (Removable Insulation Jacket / Removable Insulation Cover) ในโรงไฟฟ้า โรงน้ำตาล โรงงานปิโตรเคมี 
+                        และโรงงานต่างๆที่จำเป็นต้องใช้ประโยชน์จากพลังงานความร้อน เป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-07/Pic-3.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">TREATMENT</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>FS70-V2</th>
+                                <td>Vermiculite Coated<br>(เคลือบเวอร์มิคูไลท์)</td>
+                                <td>0.7MM</td>
+                                <td>920MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>FS137-V2</th>
+                                <td>Vermiculite Coated<br>(เคลือบเวอร์มิคูไลท์)</td>
+                                <td>1.37MM</td>
+                                <td>920MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th><u>FS80-S2</u></th>
+                                <td>Silicone Coated<br>(เคลือบซิลิโคน)</td>
+                                <td>0.8MM</td>
+                                <td>920MM/1500MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-07/Combine-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-07/Combine-3.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-07/Combine-4.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
+                'content_en' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>Silica Fiber Fabrics / Silica Fabrics / Silica Cloth</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>ผ้าซิลิก้า</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        ผ้าซิลิก้า (Silica Fiber Fabrics) เป็นผ้าที่มีคุณสมบัติหลายอย่าง 
+                        ซึ่งรวมทั้งคุณสมบัติในการนำพาความร้อนต่ำ ทนทานต่อความร้อนได้ดีกว่าผ้าประเภทอื่นๆ อาทิเช่น 
+                        ผ้าอารามิด (Aramid Fabrics) 
+                        ผ้าใยแก้ว (Glass Fiber Fabrics) 
+                        ผ้าบะซอลต์ (Basalt Fiber Fabrics) 
+                        ผ้าคาร์บอน (Carbon Fiber Fabrics) เป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <img src="/images/slides/page-07/Pic-2.jpg" style="max-width:100%;width:300px;object-fit:scale-down;float:right;">
+                    <p style="font-size:20px;display:contents;float:left;">
+                        ผ้าซิลิก้า (Silica Cloth/Silica Fabric) เหมาะกับการที่จะนำเอาไปใช้ประโยชน์กับงานที่เกี่ยวข้องกับความร้อนสูง 
+                        ผ้าซิลิก้าที่นำเอามาใช้ในอุตสาหกรรมโดยทั่วๆไปในบ้านเรา ถือได้ว่าเป็นผ้าซิลิก้าเกรดอุตสาหกรรม (Industrial Grade Silica Fiber Fabrics) 
+                        ซึ่งมี Tensile Strength สูง กว่าผ้าซิลิก้าเกรด Aerospace หรือ เกรด Shrinkage Controlled ไม่ฉีกขาดง่าย 
+                        เหมาะสำหรับนำมาตัดเย็บงานฉนวนแบบถอดได้ เย็บเป็นผ้ากันสะเก็ดไฟ 
+                        ผ้าซิลิก้าสามารถทนความร้อนและใช้งานได้อย่างต่อเนื่องกับความร้อนที่ประมาณ 980°C 
+                        โดยที่คุณสมบัติต่างๆยังคงเดิม ในขณะเดียวกันผ้าซิลิก้าจะยังคงรักษาลักษณะความเป็นผ้าที่ยังคงใช้งานได้เมื่อสัมผัสกับอุณหภูมิที่สูงถึงประมาณ 1200°C 
+                        โดยที่คุณสมบัติด้านอื่นๆอาจลดลงไปบ้าง 
+                        (ที่มา - U.S. International Trade and Commission)
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        ประโยชน์ของผ้าซิลิก้า คือ สามารถนำมาทำเป็นผ้ากันสะเก็ดไฟ (Welding Blankets)
+                        สำหรับงานเชื่อมโลหะ/งานตัดโลหะ/งานเจียร์โลหะ (Welding Blankets) ได้เป็นอย่างดี 
+                        ใช้เป็นผ้ากันไฟ (Fireproof Blankets) ใช้เป็นส่วนประกอบฉนวนหุ้มท่อ (Pipe Insulation / Pipe Coverings / Hose Coverings) 
+                        ฉนวนทนความร้อนแบบถอดได้ (Removable Insulation Jacket / Removable Insulation Cover) ในโรงไฟฟ้า โรงน้ำตาล โรงงานปิโตรเคมี 
+                        และโรงงานต่างๆที่จำเป็นต้องใช้ประโยชน์จากพลังงานความร้อน เป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-07/Pic-3.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">TREATMENT</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>FS70-V2</th>
+                                <td>Vermiculite Coated<br>(เคลือบเวอร์มิคูไลท์)</td>
+                                <td>0.7MM</td>
+                                <td>920MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>FS137-V2</th>
+                                <td>Vermiculite Coated<br>(เคลือบเวอร์มิคูไลท์)</td>
+                                <td>1.37MM</td>
+                                <td>920MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th><u>FS80-S2</u></th>
+                                <td>Silicone Coated<br>(เคลือบซิลิโคน)</td>
+                                <td>0.8MM</td>
+                                <td>920MM/1500MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-07/Combine-1.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-07/Combine-3.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-07/Combine-4.jpg" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
@@ -544,20 +1016,446 @@ class CreateContentsTable extends Migration
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
-                'content_en' => '',
+                'content_th' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>Silicone Coated Glass Fabrics / Silicone Coated Fiberglass Fabrics</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>ผ้าใยแก้วเคลือบซิลิโคน</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        ผ้าใยแก้วเป็นผ้าที่มีคุณสมบัติในการทนความร้อนสูง (≤ 500°C) 
+                        ทนสารเคมี มีการนำความร้อนต่ำ ถูกนำเอาไปใช้ในหลายๆอุตสาหกรรม 
+                        แต่ด้วยความที่ผ้าใยแก้วผลิตมาจากเส้นใยที่ทนทานต่อการขีดข่วนได้ไม่ดีนัก 
+                        การเคลือบด้วยซิลิโคนชนิดที่ไม่ติดไฟ ไม่ลามไฟจึงช่วยให้ผ้าใยแก้วมีคุณสมบัติเพิ่มขึ้น 
+                        ทนต่อการขีดข่วนได้ดี มีความยืดหยุ่นสูง ง่ายต่อการใช้งาน 
+                        จึงเหมาะกับการนำเอาไปใช้กับงานที่ต้องการการทนความร้อนสูง กันน้ำ และ ลมร้อนด้วย
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/images/slides/page-09/Pic-1.jpg" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-6">
+                    <img src="/images/slides/page-09/Pic-2.jpg" style="width:100%;">
+                </div>
+                <div class="col-md-6">
+                    <p style="font-size:20px;">
+                        ผ้าใยแก้วเคลือบซิลิโคน (Silicone Coated Glass Fabrics) 
+                        สามารถนำเอาไปใช้เป็นผ้าม่านกันสะเก็ดไฟงานเชื่อมโลหะ งานตัดโลหะ งานเจียร์โลหะ เป็นผ้าม่านกันความร้อน 
+                        ใช้เป็นแผ่นซิลิโคนปิดผิวใยฉนวน Rockwool / ฉนวนใยแก้วหุ้มท่อร้อน ฉนวนหุ้มท่อบอยเลอร์ แผ่นรองกันความร้อน 
+                        ใช้ประกอบเป็นฉนวนหุ้มวาล์ว ฉนวนแบบถอดได้ (Removable Insulation Cover / Removable Insulation Jacket) 
+                        ตัดเย็บเป็นท่อ Sleeve หุ้มสายไฟ และม่านก้นความร้อนเป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-09/Pic-3.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">TREATMENT</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>FG45-S2</th>
+                                <td>เคลือบซิลิโคน 2 ด้าน</td>
+                                <td>0.45mm</td>
+                                <td>1500MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>FG90-S2</th>
+                                <td>เคลือบซิลิโคน 2 ด้าน</td>
+                                <td>0.90MM</td>
+                                <td>1500MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-09/Pic-4.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
+                'content_en' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>Silicone Coated Glass Fabrics / Silicone Coated Fiberglass Fabrics</b></u>
+                    </h3>
+                    <h4 class="text-left" style="font-size:25px;">
+                        <u>ผ้าใยแก้วเคลือบซิลิโคน</u>
+                    </h4>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-8">
+                    <p style="font-size:20px;">
+                        ผ้าใยแก้วเป็นผ้าที่มีคุณสมบัติในการทนความร้อนสูง (≤ 500°C) 
+                        ทนสารเคมี มีการนำความร้อนต่ำ ถูกนำเอาไปใช้ในหลายๆอุตสาหกรรม 
+                        แต่ด้วยความที่ผ้าใยแก้วผลิตมาจากเส้นใยที่ทนทานต่อการขีดข่วนได้ไม่ดีนัก 
+                        การเคลือบด้วยซิลิโคนชนิดที่ไม่ติดไฟ ไม่ลามไฟจึงช่วยให้ผ้าใยแก้วมีคุณสมบัติเพิ่มขึ้น 
+                        ทนต่อการขีดข่วนได้ดี มีความยืดหยุ่นสูง ง่ายต่อการใช้งาน 
+                        จึงเหมาะกับการนำเอาไปใช้กับงานที่ต้องการการทนความร้อนสูง กันน้ำ และ ลมร้อนด้วย
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/images/slides/page-09/Pic-1.jpg" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-6">
+                    <img src="/images/slides/page-09/Pic-2.jpg" style="width:100%;">
+                </div>
+                <div class="col-md-6">
+                    <p style="font-size:20px;">
+                        ผ้าใยแก้วเคลือบซิลิโคน (Silicone Coated Glass Fabrics) 
+                        สามารถนำเอาไปใช้เป็นผ้าม่านกันสะเก็ดไฟงานเชื่อมโลหะ งานตัดโลหะ งานเจียร์โลหะ เป็นผ้าม่านกันความร้อน 
+                        ใช้เป็นแผ่นซิลิโคนปิดผิวใยฉนวน Rockwool / ฉนวนใยแก้วหุ้มท่อร้อน ฉนวนหุ้มท่อบอยเลอร์ แผ่นรองกันความร้อน 
+                        ใช้ประกอบเป็นฉนวนหุ้มวาล์ว ฉนวนแบบถอดได้ (Removable Insulation Cover / Removable Insulation Jacket) 
+                        ตัดเย็บเป็นท่อ Sleeve หุ้มสายไฟ และม่านก้นความร้อนเป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-09/Pic-3.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">TREATMENT</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>FG45-S2</th>
+                                <td>เคลือบซิลิโคน 2 ด้าน</td>
+                                <td>0.45mm</td>
+                                <td>1500MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                            <tr>
+                                <th>FG90-S2</th>
+                                <td>เคลือบซิลิโคน 2 ด้าน</td>
+                                <td>0.90MM</td>
+                                <td>1500MM</td>
+                                <td>50M/ROLL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-09/Pic-4.JPG" class="img-responsive" style="width:100%;">
+                </div>
+            </div>',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],
             [
-                'content_th' => '',
-                'content_en' => '',
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
-            ],
-            [
-                'content_th' => '',
-                'content_en' => '',
+                'content_th' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>ผ้า PTFE / ผ้าเทฟล่อน (Teflon) - PTFE Coated Fabrics</b></u>
+                    </h3>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <img src="/images/slides/page-10/Pic-1.png" class="img-responsive" style="width:100%;float:left;">
+                    </div>
+                    <p style="font-size:20px;display:contents;float:left;">
+                        ผ้า PTFE (Polytetrafluoroethylene) ของเราเป็นผ้า PTFE
+                        ที่เสริมความแข็งแรงด้วยผ้าใยแก้ว สามารถทนอุณหภูมิได้ถึง 300°C เป็นผ้าที่มีความทนทานต่อการขีดข่วนและฉีกขาดได้ดี
+                        กันน้ำ เหมาะสำหรับที่จะนำเอาไปใช้เป็นแผ่นกันความร้อน แผ่นรองเครื่องฮีตซีล (Heat Sealing Plate) 
+                        เป็นส่วนประกอบฉนวนแบบถอดได้ (Removable Insulation Jacket/Cover) 
+                        สำหรับเครื่องฉีดพลาสติก (Plastic Extruder / Plastic Injection Molding Machine) 
+                        ฉนวนนอกอาคารหุ้มวาล์ว/ฉนวนหุ้มท่อ/ฉนวนหุ้มหน้าแปลนเป็นท่อลมร้อน Expansion Joint
+                        เป็นม่านกันความร้อน อีกทั้งยังสามารถใช้เป็นผ้ากันสะเก็ดไฟงานเชื่อมโลหะ งานตัดโลหะ ได้อีกด้วย
+                    </p>
+                    <br>
+                    <p style="font-size:20px;margin-top:20px;">
+                        <b>PTFE</b> (Polytetrafluoroethylene) มีคุณสมบัติในการทนทานต่อปัจจัยของสภาพแวดล้อมได้ดี 
+                        ทนสารเคมีต่างๆได้ดี ด้วยเหตุนี้ผ้าใยแก้วเคลือบด้วย PTFE (PTFE Coated Fabrics) จึงสามารถใช้กับงาน Out-door ได้เป็นอย่างดี และ 
+                        งานฉนวนแบบถอดได้ที่ติดตั้งนอกอาคาร(Out-Door Insulation Jacket) จึงนิยมใช้ผ้าเคลือบ PTFE เป็นส่วนประกอบ
+                    </p>
+                </div>
+            </div>
+            
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-10/Pic-2.jpg" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">TREATMENT</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>FG8-P2</th>
+                                <td>Teflon Coated (สองด้าน)- Food Grade</td>
+                                <td>0.08mm</td>
+                                <td>1000mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG12-P2</th>
+                                <td>Teflon Coated (สองด้าน)- Food Grade</td>
+                                <td>0.12mm</td>
+                                <td>1200mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG25-P2</th>
+                                <td>Teflon Coated (สองด้าน)- Food Grade</td>
+                                <td>0.25mm</td>
+                                <td>1000mm/1500mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG38-P2</th>
+                                <td>Teflon Coated (สองด้าน)-Anti-Static</td>
+                                <td>0.38mm</td>
+                                <td>1500mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG45-P2</th>
+                                <td>PTFE Coated (สองด้าน)</td>
+                                <td>0.45mm</td>
+                                <td>1500mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG100-P2</th>
+                                <td>PTFE Coated (สองด้าน)</td>
+                                <td>1.00mm</td>
+                                <td>1500mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        นอกจากนี้แล้วเรายังมี <u><b>ผ้าเทฟล่อน (Teflon หรือ Food Grade PTFE) สำหรับใช้ในอุตสาหกรรมอาหาร</b></u> 
+                        ด้วย ใช้เป็นถาดรองขนมปังในเตาอบ 
+                        ทำเป็นสายพานลำเลียง ใช้เป็นม่านกันความร้อนหน้าเตา 
+                        ใช้เป็นแผ่นรองกันเปื้อนสำหรับเตาแก๊สในครัวเรือนเป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-8">
+                    <img src="/images/slides/page-09/Pic-4.JPG" class="img-responsive" style="width:100%;">
+                </div>
+                <div class="col-md-4">
+                    <p style="font-size:20px;">
+                        ผ้าใยแก้วเคลือบเทฟล่อน(Teflon) หรือ Food Grade PTFE 
+                        มีลักษณะผิวมัน ลื่น ไม่เกาะติดง่าย ทนต่อการขีดข่วนได้ดีและสามารถเช็ดทำความสะอาดได้ง่าย 
+                        สามารถทนอุณหภูมิได้ถึง 300°C และมีความยืดหยุ่นดี ง่ายต่อการนำเอาไปใช้งาน
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-10/Pic-4.jpg" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-10/Pic-5.jpg" style="width:100%;">
+                </div>
+            </div>',
+                'content_en' => '<div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-left">
+                        <u><b>ผ้า PTFE / ผ้าเทฟล่อน (Teflon) - PTFE Coated Fabrics</b></u>
+                    </h3>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <img src="/images/slides/page-10/Pic-1.png" class="img-responsive" style="width:100%;float:left;">
+                    </div>
+                    <p style="font-size:20px;display:contents;float:left;">
+                        ผ้า PTFE (Polytetrafluoroethylene) ของเราเป็นผ้า PTFE
+                        ที่เสริมความแข็งแรงด้วยผ้าใยแก้ว สามารถทนอุณหภูมิได้ถึง 300°C เป็นผ้าที่มีความทนทานต่อการขีดข่วนและฉีกขาดได้ดี
+                        กันน้ำ เหมาะสำหรับที่จะนำเอาไปใช้เป็นแผ่นกันความร้อน แผ่นรองเครื่องฮีตซีล (Heat Sealing Plate) 
+                        เป็นส่วนประกอบฉนวนแบบถอดได้ (Removable Insulation Jacket/Cover) 
+                        สำหรับเครื่องฉีดพลาสติก (Plastic Extruder / Plastic Injection Molding Machine) 
+                        ฉนวนนอกอาคารหุ้มวาล์ว/ฉนวนหุ้มท่อ/ฉนวนหุ้มหน้าแปลนเป็นท่อลมร้อน Expansion Joint
+                        เป็นม่านกันความร้อน อีกทั้งยังสามารถใช้เป็นผ้ากันสะเก็ดไฟงานเชื่อมโลหะ งานตัดโลหะ ได้อีกด้วย
+                    </p>
+                    <br>
+                    <p style="font-size:20px;margin-top:20px;">
+                        <b>PTFE</b> (Polytetrafluoroethylene) มีคุณสมบัติในการทนทานต่อปัจจัยของสภาพแวดล้อมได้ดี 
+                        ทนสารเคมีต่างๆได้ดี ด้วยเหตุนี้ผ้าใยแก้วเคลือบด้วย PTFE (PTFE Coated Fabrics) จึงสามารถใช้กับงาน Out-door ได้เป็นอย่างดี และ 
+                        งานฉนวนแบบถอดได้ที่ติดตั้งนอกอาคาร(Out-Door Insulation Jacket) จึงนิยมใช้ผ้าเคลือบ PTFE เป็นส่วนประกอบ
+                    </p>
+                </div>
+            </div>
+            
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-10/Pic-2.jpg" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <table class="table table-bordered table-hover" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ITEM</th>
+                                <th class="text-center">TREATMENT</th>
+                                <th class="text-center">THICKNESS</th>
+                                <th class="text-center">WIDTH</th>
+                                <th class="text-center">LENGTH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>FG8-P2</th>
+                                <td>Teflon Coated (สองด้าน)- Food Grade</td>
+                                <td>0.08mm</td>
+                                <td>1000mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG12-P2</th>
+                                <td>Teflon Coated (สองด้าน)- Food Grade</td>
+                                <td>0.12mm</td>
+                                <td>1200mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG25-P2</th>
+                                <td>Teflon Coated (สองด้าน)- Food Grade</td>
+                                <td>0.25mm</td>
+                                <td>1000mm/1500mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG38-P2</th>
+                                <td>Teflon Coated (สองด้าน)-Anti-Static</td>
+                                <td>0.38mm</td>
+                                <td>1500mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG45-P2</th>
+                                <td>PTFE Coated (สองด้าน)</td>
+                                <td>0.45mm</td>
+                                <td>1500mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                            <tr>
+                                <th>FG100-P2</th>
+                                <td>PTFE Coated (สองด้าน)</td>
+                                <td>1.00mm</td>
+                                <td>1500mm</td>
+                                <td>50m/Roll</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-12">
+                    <p style="font-size:20px;">
+                        นอกจากนี้แล้วเรายังมี <u><b>ผ้าเทฟล่อน (Teflon หรือ Food Grade PTFE) สำหรับใช้ในอุตสาหกรรมอาหาร</b></u> 
+                        ด้วย ใช้เป็นถาดรองขนมปังในเตาอบ 
+                        ทำเป็นสายพานลำเลียง ใช้เป็นม่านกันความร้อนหน้าเตา 
+                        ใช้เป็นแผ่นรองกันเปื้อนสำหรับเตาแก๊สในครัวเรือนเป็นต้น
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-8">
+                    <img src="/images/slides/page-09/Pic-4.JPG" class="img-responsive" style="width:100%;">
+                </div>
+                <div class="col-md-4">
+                    <p style="font-size:20px;">
+                        ผ้าใยแก้วเคลือบเทฟล่อน(Teflon) หรือ Food Grade PTFE 
+                        มีลักษณะผิวมัน ลื่น ไม่เกาะติดง่าย ทนต่อการขีดข่วนได้ดีและสามารถเช็ดทำความสะอาดได้ง่าย 
+                        สามารถทนอุณหภูมิได้ถึง 300°C และมีความยืดหยุ่นดี ง่ายต่อการนำเอาไปใช้งาน
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-10/Pic-4.jpg" style="width:100%;">
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom:20px;">
+                <div class="col-md-offset-3 col-md-6">
+                    <img src="/images/slides/page-10/Pic-5.jpg" style="width:100%;">
+                </div>
+            </div>',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ],

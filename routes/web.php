@@ -31,19 +31,20 @@ Route::get('/company', 'CompanyController@index');
 Route::get('/product', 'ProductController@index');
 Route::get('/contact', 'ContactController@index');
 Route::get('/news', 'NewsController@index');
-Route::get('/Glass-Fabrics','WelcomeController@IndexOtherPage');
-Route::get('/Silica-Fabrics','WelcomeController@IndexOtherPage');
-Route::get('/Ceramic-Fabrics','WelcomeController@IndexOtherPage');
-Route::get('/Silicone-Coated-Fabrics','WelcomeController@IndexOtherPage');
-Route::get('/PTFE-Coated-Fabrics','WelcomeController@IndexOtherPage');
-Route::get('/Hi-Temp-Fabric-Tape','WelcomeController@IndexOtherPage');
-Route::get('/Flexible-Joint-Ducts','WelcomeController@IndexOtherPage');
-Route::get('/Welding-Blanket-Fire-Blanket','WelcomeController@IndexOtherPage');
-Route::get('/Removable-Insulation','WelcomeController@IndexOtherPage');
-Route::get('/Insulation-Accessories','WelcomeController@IndexOtherPage');
-Route::get('/Hi-Temp-Sewing-Thread','WelcomeController@IndexOtherPage');
-Route::get('/Temporary-Work-Shop','WelcomeController@IndexOtherPage');
-Route::get('/Fiber-Blanket','WelcomeController@IndexOtherPage');
+
+Route::get('/Glass-Fabrics','WelcomeController@IndexOtherPage'); // 6
+Route::get('/Silica-Fabrics','WelcomeController@IndexOtherPage'); // 7
+Route::get('/Ceramic-Fabrics','WelcomeController@IndexOtherPage'); // 8
+Route::get('/Silicone-Coated-Fabrics','WelcomeController@IndexOtherPage'); // 9
+Route::get('/PTFE-Coated-Fabrics','WelcomeController@IndexOtherPage'); // 10
+Route::get('/Hi-Temp-Fabric-Tape','WelcomeController@IndexOtherPage'); // 11
+Route::get('/Flexible-Joint-Ducts','WelcomeController@IndexOtherPage'); // 12
+Route::get('/Welding-Blanket-Fire-Blanket','WelcomeController@IndexOtherPage'); // 13
+Route::get('/Removable-Insulation','WelcomeController@IndexOtherPage'); // 15
+Route::get('/Insulation-Accessories','WelcomeController@IndexOtherPage'); // 16
+Route::get('/Hi-Temp-Sewing-Thread','WelcomeController@IndexOtherPage'); // 17
+Route::get('/Temporary-Work-Shop','WelcomeController@IndexOtherPage'); // 18
+Route::get('/Fiber-Blanket','WelcomeController@IndexOtherPage'); // 19
 
 Route::get('/news/read', 'NewsController@index');
 

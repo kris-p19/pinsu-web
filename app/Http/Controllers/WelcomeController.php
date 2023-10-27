@@ -10,21 +10,34 @@ class WelcomeController extends Controller
     public function IndexOtherPage(Request $request)
     {
         $data = [];
+        $slide = [];
         switch ($request->path()) {
             case 'Glass-Fabrics': 
                 $data = Content::where('id',6)->first();
+                $slide = [
+                    asset('images/slides/page-06/ภาพหัว Page .jpg')
+                ];
                 break;
             case 'Silica-Fabrics': 
                 $data = Content::where('id',7)->first();
+                $slide = [
+                    asset('images/slides/page-07/Pic-1.jpg')
+                ];
                 break;
             case 'Ceramic-Fabrics': 
                 $data = Content::where('id',8)->first();
                 break;
             case 'Silicone-Coated-Fabrics': 
                 $data = Content::where('id',9)->first();
+                $slide = [
+                    asset('images/slides/page-09/Header.JPG')
+                ];
                 break;
             case 'PTFE-Coated-Fabrics': 
                 $data = Content::where('id',10)->first();
+                $slide = [
+                    asset('images/slides/page-10/Header.jpg')
+                ];
                 break;
             case 'Hi-Temp-Fabric-Tape': 
                 $data = Content::where('id',11)->first();
@@ -54,6 +67,7 @@ class WelcomeController extends Controller
 
         return view('other',[
             'data' => $data,
+            'slide'=> $slide,
             'path' => $request->path(),
             'title'=> 'OTHER',
             'style'=> '1'
