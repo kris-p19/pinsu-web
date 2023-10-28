@@ -104,4 +104,8 @@ Route::group(['prefix'=>'ma', 'middleware'=>['auth']],function(){
     });
     Route::post('news/post', 'NewsController@store');
     Route::post('news/post-update', 'NewsController@update');
+
+    // Ma Link
+    Route::get('link', 'LinkController@index');
+    Route::post('link/post', 'LinkController@update');
 });

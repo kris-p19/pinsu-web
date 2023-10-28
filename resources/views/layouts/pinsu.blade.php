@@ -93,15 +93,21 @@
                             <div class="col-md-5">
                                 <div class="pull-right">
                                     <div class="text-right">
-                                        <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                        @if (!empty(DB::table('links')->where('id',1)->first()->urls))
+                                        <a href="{{ DB::table('links')->where('id',1)->first()->urls }}" target="_blank" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
                                             <i class="fa-brands fa-facebook-f"></i>
                                         </a>
-                                        <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                        @endif
+                                        @if (!empty(DB::table('links')->where('id',2)->first()->urls))
+                                        <a href="{{ DB::table('links')->where('id',2)->first()->urls }}" target="_blank" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
                                             <i class="fa-brands fa-instagram"></i>
                                         </a>
-                                        <a href="javascript:void(0);" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
+                                        @endif
+                                        @if (!empty(DB::table('links')->where('id',3)->first()->urls))
+                                        <a href="{{ DB::table('links')->where('id',3)->first()->urls }}" target="_blank" style="display:inline-block;color:#0510a1;font-size:20px;" class="pinsu-nav-item hvr-underline-from-center">
                                             <i class="fa-brands fa-line"></i>
                                         </a>
+                                        @endif
                                     </div>
                                 </div>
                             </div>
